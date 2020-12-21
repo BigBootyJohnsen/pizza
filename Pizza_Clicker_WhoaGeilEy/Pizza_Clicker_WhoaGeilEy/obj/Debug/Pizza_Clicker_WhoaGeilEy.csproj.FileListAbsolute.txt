@@ -1,0 +1,10 @@
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\bin\Debug\Pizza_Clicker_WhoaGeilEy.exe.config
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\bin\Debug\Pizza_Clicker_WhoaGeilEy.exe
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\bin\Debug\Pizza_Clicker_WhoaGeilEy.pdb
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.csprojAssemblyReference.cache
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.Form1.resources
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.Properties.Resources.resources
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.csproj.GenerateResource.cache
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.exe
+D:\Visual Studio\Pizza_Clicker_WhoaGeilEy\Pizza_Clicker_WhoaGeilEy\obj\Debug\Pizza_Clicker_WhoaGeilEy.pdb
