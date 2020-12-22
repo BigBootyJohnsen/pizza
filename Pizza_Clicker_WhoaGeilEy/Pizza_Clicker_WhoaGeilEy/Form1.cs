@@ -15,23 +15,30 @@ namespace Pizza_Clicker_WhoaGeilEy
     {
         public int pizza_count = 0; // Gibt an wie viele Pizzen wir haben.
         public int pizza_click = 1; // Gibt an wie viele Pizzen ein Click auf den Button gibt.
-        public int pizza_cot = 1; //Gibt an wie viele Clicks man pro Sekunde bekommt. (Autoclicks)
+        public int pizza_cpt = 1; // Gibt an wie viele Clicks man pro Sekunde bekommt. (Autoclicks) (clicks per time)    
+
+        public int pizza_up1_cost = 15;
+        public int pizza_up2_cost = 100;
+        public int pizza_up3_cost = 1100;
+        public int pizza_up4_cost = 12000;
+        public int pizza_up5_cost = 130000;
+        public int pizza_up6_cost = 1400000;
+        public int pizza_up7_cost = 20000000;
+        public int pizza_up8_cost = 330.000.000;
+        public int pizza_up9_cost = 5.100.000.00;
+        public int pizza_up10_cost = 75.000.000.000;
+        public int pizza_up11_cost = 1.000.000.000.000;
+        public int pizza_up12_cost = 14.000.000.000.000;
+        public int pizza_up13_cost = 170.000.000.000.000;
+        public int pizza_up14_cost = 2.100.000.000.000.000;
 
 
         // Timer value
-        // public int timerCount = 0;
-
-        //private static void SetTimer()
-        // {
-        // 
-        //    aTimer = new System.Timers.Timer(2000);
-        // }
-       
-
+        public TimeSpan timeLeft;
         public Form1()
         {
             InitializeComponent();
-            // timer1_Tick.start();
+            timer_test.Start(); // startet den timer(den Zähler)
         }
          
         private void button1_Click(object sender, EventArgs e)
@@ -40,12 +47,16 @@ namespace Pizza_Clicker_WhoaGeilEy
             lblPizza_count.Text = "Pizzen: " + pizza_count;
         }
 
-       // private void timer1_Tick(object sender, EventArgs e)
-       // {
-       //      
-       //     timers timerCounter += 1;
-       //     pizza_count += pizza_cot;
-       // }
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void timer_test_Tick(object sender, EventArgs e)
+        {
+            pizza_count += pizza_cpt; // cpt wird hinzugegeben 
+            lblPizza_count.Text = "Pizzen: " + pizza_count;
+        }
     }
 }
 //jayden hat ein geilen lsdefgiouv8s9doynhizgtfisgsghjsrgusicogzbshzfubsizfgtszfuilsfbgsufhjsikiongding dog
