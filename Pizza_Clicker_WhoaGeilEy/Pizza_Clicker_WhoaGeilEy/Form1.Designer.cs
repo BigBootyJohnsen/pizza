@@ -34,6 +34,8 @@
             this.lblPizza_count = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.timer_test = new System.Windows.Forms.Timer(this.components);
+            this.shop_cpt2 = new System.Windows.Forms.Button();
+            this.shop_cpt3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPizza_click
@@ -67,13 +69,40 @@
             // 
             // timer_test
             // 
+            this.timer_test.Interval = 1000;
             this.timer_test.Tick += new System.EventHandler(this.timer_test_Tick);
+            // 
+            // shop_cpt2
+            // 
+            this.shop_cpt2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.shop_cpt2.FlatAppearance.BorderSize = 0;
+            this.shop_cpt2.Location = new System.Drawing.Point(685, 73);
+            this.shop_cpt2.Name = "shop_cpt2";
+            this.shop_cpt2.Size = new System.Drawing.Size(103, 23);
+            this.shop_cpt2.TabIndex = 3;
+            this.shop_cpt2.Text = "UP 2";
+            this.shop_cpt2.UseVisualStyleBackColor = true;
+            this.shop_cpt2.Click += new System.EventHandler(this.shop_cpt2_Click);
+            // 
+            // shop_cpt3
+            // 
+            this.shop_cpt3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.shop_cpt3.FlatAppearance.BorderSize = 0;
+            this.shop_cpt3.Location = new System.Drawing.Point(685, 115);
+            this.shop_cpt3.Name = "shop_cpt3";
+            this.shop_cpt3.Size = new System.Drawing.Size(103, 23);
+            this.shop_cpt3.TabIndex = 4;
+            this.shop_cpt3.Text = "UP 3";
+            this.shop_cpt3.UseVisualStyleBackColor = true;
+            this.shop_cpt3.Click += new System.EventHandler(this.shop_cpt3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.shop_cpt3);
+            this.Controls.Add(this.shop_cpt2);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblPizza_count);
             this.Controls.Add(this.btnPizza_click);
@@ -91,6 +120,8 @@
         private System.Windows.Forms.Label lblPizza_count;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Timer timer_test;
+        private System.Windows.Forms.Button shop_cpt2;
+        private System.Windows.Forms.Button shop_cpt3;
     }
 }
 
