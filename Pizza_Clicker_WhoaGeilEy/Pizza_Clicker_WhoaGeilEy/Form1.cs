@@ -85,7 +85,7 @@ namespace Pizza_Clicker_WhoaGeilEy
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Close();
+            Close();//Schliest das fenster
         }
 
         private void timer_test_Tick(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace Pizza_Clicker_WhoaGeilEy
             pizza_count += pizza_cpt / 20; // cpt wird hinzugegeben 
             lblPizza_count.Text = "Pizzen: " + Convert.ToInt64(pizza_count);
 
-            lbl_cpt_ps.Text = "Pizzen/s: " + Convert.ToString(pizza_cpt);
+            lbl_cpt_ps.Text = "Pizzen/s: " + Convert.ToString(pizza_cpt);//wie viele pizzen pro sekunde produziert werden
         }
 
 
@@ -131,7 +131,63 @@ namespace Pizza_Clicker_WhoaGeilEy
             }
         }
 
+        private void shop_cpt4_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt4_cost)
+            {
+                pizza_cpt += pizza_cpt4_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_cpt4_number++;
+                pizza_count -= pizza_cpt4_cost;
+                pizza_cpt4_cost = Convert.ToInt64(Convert.ToDouble(pizza_cpt4_cost) * 1.15);
+                lblPizza_count.Text = "Pizzen: " + pizza_count;
 
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt4_number.Text = Convert.ToString(pizza_cpt4_number);
+                lbl_cpt4_pizzen.Text = Convert.ToString(pizza_cpt4_pizzen);
+                lbl_cpt4_cost.Text = Convert.ToString(pizza_cpt4_cost);
+            }
+        }
+
+
+
+        private void btn_click_up1_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000)
+            {
+                pizza_click = pizza_click + (pizza_click * 1.01);
+                btn_click_up1.Visible = false;
+            }
+        }
+
+        private void btn_click_up2_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 5000000)
+            {
+                pizza_click = pizza_click + (pizza_click * 1.01);
+                btn_click_up1.Visible = false;
+
+            }
+        }
+
+        private void btn_click_up3_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 500000000)
+            {
+                pizza_click = pizza_click + (pizza_click * 1.01);
+                btn_click_up1.Visible = false;
+
+            }
+        }
+
+        private void btn_click_up4_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000000000)
+            {
+                pizza_click = pizza_click + (pizza_click * 1.01);
+                btn_click_up1.Visible = false;
+
+            }
+        }
     }
 }
 //jayden hat ein geilen lsdefgiouv8s9doynhizgtfisgsghjsrgusicogzbshzfubsizfgtszfuilsfbgsufhjsikiongding dog
