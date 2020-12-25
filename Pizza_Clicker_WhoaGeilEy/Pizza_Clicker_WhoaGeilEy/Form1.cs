@@ -51,7 +51,7 @@ namespace Pizza_Clicker_WhoaGeilEy
 
         //cpt multiplyer
         //was man bekommt
-        public double pizza_cpt1_pizzen = 1;
+        public double pizza_cpt1_pizzen = 0.1;
         public double pizza_cpt2_pizzen = 1;
         public double pizza_cpt3_pizzen = 8;
         public double pizza_cpt4_pizzen = 47;
@@ -76,6 +76,9 @@ namespace Pizza_Clicker_WhoaGeilEy
         {
             InitializeComponent();
             timer_test.Start(); // startet den timer(den Zähler)
+            this.TopMost = true;
+
+
         }
          
         private void button1_Click(object sender, EventArgs e)
@@ -97,6 +100,22 @@ namespace Pizza_Clicker_WhoaGeilEy
         }
 
 
+        private void shop_cpt1_Click_1(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt1_cost)
+            {
+                pizza_cpt += pizza_cpt1_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_count -= pizza_cpt1_cost;
+                pizza_cpt1_number++;
+                pizza_cpt1_cost = Convert.ToInt64(pizza_cpt1_cost * 1.15);
+
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt1_number.Text = Convert.ToString(pizza_cpt1_number);
+                lbl_cpt1_pizzen.Text = Convert.ToString(pizza_cpt1_pizzen);
+                lbl_cpt1_cost.Text = Convert.ToString(pizza_cpt1_cost);
+
+            }
+        }
         private void shop_cpt2_Click(object sender, EventArgs e)
         {
             if (pizza_count >= pizza_cpt2_cost)
@@ -148,7 +167,22 @@ namespace Pizza_Clicker_WhoaGeilEy
             }
         }
 
+        private void shop_cpt5_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt5_cost)
+            {
+                pizza_cpt += pizza_cpt5_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_cpt5_number++;
+                pizza_count -= pizza_cpt5_cost;
+                pizza_cpt5_cost = Convert.ToInt64(Convert.ToDouble(pizza_cpt5_cost) * 1.15);
+                lblPizza_count.Text = "Pizzen: " + pizza_count;
 
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt5_number.Text = Convert.ToString(pizza_cpt5_number);
+                lbl_cpt5_pizzen.Text = Convert.ToString(pizza_cpt5_pizzen);
+                lbl_cpt5_cost.Text = Convert.ToString(pizza_cpt5_cost);
+            }
+        }
 
         private void btn_click_up1_Click(object sender, EventArgs e)
         {
@@ -188,6 +222,27 @@ namespace Pizza_Clicker_WhoaGeilEy
 
             }
         }
+        private void btn_click_up5_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000000000)
+            {
+                pizza_click = pizza_click + (pizza_click * 1.01);
+                btn_click_up1.Visible = false;
+
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            pizza_count += 10000000000;
+        }
+
+ 
     }
 }
 //jayden hat ein geilen lsdefgiouv8s9doynhizgtfisgsghjsrgusicogzbshzfubsizfgtszfuilsfbgsufhjsikiongding dog
