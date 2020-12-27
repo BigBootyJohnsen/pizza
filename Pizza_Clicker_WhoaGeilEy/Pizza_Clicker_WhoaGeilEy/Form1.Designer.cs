@@ -66,7 +66,6 @@
             this.shop_cpt5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_cpt1_click_up1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btn_cpt1_click_up2 = new System.Windows.Forms.Button();
             this.btn_cpt1_click_up3 = new System.Windows.Forms.Button();
             this.btn_cpt1_click_up4 = new System.Windows.Forms.Button();
@@ -74,6 +73,49 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up1 = new System.Windows.Forms.Button();
+            this.btn_cpt2_up2 = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up4 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up3 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up6 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up5 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.btn_cpt2_up7 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnl_cpt1_click_up1 = new System.Windows.Forms.Panel();
+            this.pnl_cpt1_click_up3 = new System.Windows.Forms.Panel();
+            this.pnl_cpt1_click_up2 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up1 = new System.Windows.Forms.Panel();
+            this.pnl_cpt1_click_up4 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up2 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up4 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up3 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up5 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up6 = new System.Windows.Forms.Panel();
+            this.pnl_cpt2_up7 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.pnl_cpt1_click_up1.SuspendLayout();
+            this.pnl_cpt1_click_up3.SuspendLayout();
+            this.pnl_cpt1_click_up2.SuspendLayout();
+            this.pnl_cpt2_up1.SuspendLayout();
+            this.pnl_cpt1_click_up4.SuspendLayout();
+            this.pnl_cpt2_up2.SuspendLayout();
+            this.pnl_cpt2_up4.SuspendLayout();
+            this.pnl_cpt2_up3.SuspendLayout();
+            this.pnl_cpt2_up5.SuspendLayout();
+            this.pnl_cpt2_up6.SuspendLayout();
+            this.pnl_cpt2_up7.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPizza_click
@@ -401,63 +443,58 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(655, 130);
+            this.button1.Location = new System.Drawing.Point(469, 38);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 33;
-            this.button1.Text = "button1";
+            this.button1.Text = "cheat ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btn_cpt1_click_up1
             // 
-            this.btn_cpt1_click_up1.Location = new System.Drawing.Point(12, 192);
+            this.btn_cpt1_click_up1.Location = new System.Drawing.Point(0, 0);
             this.btn_cpt1_click_up1.Name = "btn_cpt1_click_up1";
             this.btn_cpt1_click_up1.Size = new System.Drawing.Size(121, 23);
             this.btn_cpt1_click_up1.TabIndex = 34;
             this.btn_cpt1_click_up1.Text = "click und cpt1 up1";
             this.btn_cpt1_click_up1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(353, 183);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 35;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up1.Click += new System.EventHandler(this.btn_cpt1_click_up1_Click);
             // 
             // btn_cpt1_click_up2
             // 
-            this.btn_cpt1_click_up2.Location = new System.Drawing.Point(12, 214);
+            this.btn_cpt1_click_up2.Location = new System.Drawing.Point(0, 1);
             this.btn_cpt1_click_up2.Name = "btn_cpt1_click_up2";
             this.btn_cpt1_click_up2.Size = new System.Drawing.Size(121, 23);
             this.btn_cpt1_click_up2.TabIndex = 36;
             this.btn_cpt1_click_up2.Text = "click und cpt1 up2";
             this.btn_cpt1_click_up2.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up2.Click += new System.EventHandler(this.btn_cpt1_click_up2_Click);
             // 
             // btn_cpt1_click_up3
             // 
-            this.btn_cpt1_click_up3.Location = new System.Drawing.Point(12, 236);
+            this.btn_cpt1_click_up3.Location = new System.Drawing.Point(0, 1);
             this.btn_cpt1_click_up3.Name = "btn_cpt1_click_up3";
             this.btn_cpt1_click_up3.Size = new System.Drawing.Size(121, 23);
             this.btn_cpt1_click_up3.TabIndex = 37;
             this.btn_cpt1_click_up3.Text = "click und cpt1 up3";
             this.btn_cpt1_click_up3.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up3.Click += new System.EventHandler(this.btn_cpt1_click_up3_Click);
             // 
             // btn_cpt1_click_up4
             // 
-            this.btn_cpt1_click_up4.Location = new System.Drawing.Point(12, 255);
+            this.btn_cpt1_click_up4.Location = new System.Drawing.Point(0, 0);
             this.btn_cpt1_click_up4.Name = "btn_cpt1_click_up4";
             this.btn_cpt1_click_up4.Size = new System.Drawing.Size(121, 23);
             this.btn_cpt1_click_up4.TabIndex = 38;
             this.btn_cpt1_click_up4.Text = "click und cpt1 up4";
             this.btn_cpt1_click_up4.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up4.Click += new System.EventHandler(this.btn_cpt1_click_up4_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(139, 197);
+            this.label6.Location = new System.Drawing.Point(127, 7);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(25, 13);
             this.label6.TabIndex = 39;
@@ -466,7 +503,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(139, 219);
+            this.label7.Location = new System.Drawing.Point(127, 6);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 13);
             this.label7.TabIndex = 40;
@@ -475,7 +512,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(139, 263);
+            this.label8.Location = new System.Drawing.Point(127, 6);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(46, 13);
             this.label8.TabIndex = 42;
@@ -484,26 +521,319 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(139, 241);
+            this.label9.Location = new System.Drawing.Point(127, 6);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(34, 13);
             this.label9.TabIndex = 41;
             this.label9.Text = "1.000";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(127, 6);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(31, 13);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "1000";
+            // 
+            // btn_cpt2_up1
+            // 
+            this.btn_cpt2_up1.Location = new System.Drawing.Point(0, 1);
+            this.btn_cpt2_up1.Name = "btn_cpt2_up1";
+            this.btn_cpt2_up1.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up1.TabIndex = 43;
+            this.btn_cpt2_up1.Text = "cpt2 up1";
+            this.btn_cpt2_up1.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up1.Click += new System.EventHandler(this.btn_cpt2_up1_Click);
+            // 
+            // btn_cpt2_up2
+            // 
+            this.btn_cpt2_up2.Location = new System.Drawing.Point(0, 0);
+            this.btn_cpt2_up2.Name = "btn_cpt2_up2";
+            this.btn_cpt2_up2.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up2.TabIndex = 45;
+            this.btn_cpt2_up2.Text = "cpt2 up2";
+            this.btn_cpt2_up2.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up2.Click += new System.EventHandler(this.btn_cpt2_up2_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(127, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(34, 13);
+            this.label11.TabIndex = 46;
+            this.label11.Text = "5.000";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(127, 6);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(55, 13);
+            this.label12.TabIndex = 50;
+            this.label12.Text = "5.000.000";
+            // 
+            // btn_cpt2_up4
+            // 
+            this.btn_cpt2_up4.Location = new System.Drawing.Point(0, 1);
+            this.btn_cpt2_up4.Name = "btn_cpt2_up4";
+            this.btn_cpt2_up4.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up4.TabIndex = 49;
+            this.btn_cpt2_up4.Text = "cpt2 up4";
+            this.btn_cpt2_up4.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up4.Click += new System.EventHandler(this.btn_cpt2_up4_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(127, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(40, 13);
+            this.label13.TabIndex = 48;
+            this.label13.Text = "50.000";
+            // 
+            // btn_cpt2_up3
+            // 
+            this.btn_cpt2_up3.Location = new System.Drawing.Point(0, 1);
+            this.btn_cpt2_up3.Name = "btn_cpt2_up3";
+            this.btn_cpt2_up3.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up3.TabIndex = 47;
+            this.btn_cpt2_up3.Text = "cpt2 up3";
+            this.btn_cpt2_up3.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up3.Click += new System.EventHandler(this.btn_cpt2_up3_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(127, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(82, 13);
+            this.label14.TabIndex = 54;
+            this.label14.Text = "50.000.000.000";
+            // 
+            // btn_cpt2_up6
+            // 
+            this.btn_cpt2_up6.Location = new System.Drawing.Point(0, 1);
+            this.btn_cpt2_up6.Name = "btn_cpt2_up6";
+            this.btn_cpt2_up6.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up6.TabIndex = 53;
+            this.btn_cpt2_up6.Text = "cpt2 up6";
+            this.btn_cpt2_up6.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up6.Click += new System.EventHandler(this.btn_cpt2_up6_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(127, 6);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(67, 13);
+            this.label15.TabIndex = 52;
+            this.label15.Text = "500.000.000";
+            // 
+            // btn_cpt2_up5
+            // 
+            this.btn_cpt2_up5.Location = new System.Drawing.Point(0, 1);
+            this.btn_cpt2_up5.Name = "btn_cpt2_up5";
+            this.btn_cpt2_up5.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up5.TabIndex = 51;
+            this.btn_cpt2_up5.Text = "cpt2 up5";
+            this.btn_cpt2_up5.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up5.Click += new System.EventHandler(this.btn_cpt2_up5_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(127, 7);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(103, 13);
+            this.label16.TabIndex = 56;
+            this.label16.Text = "50.000.000.000.000";
+            // 
+            // btn_cpt2_up7
+            // 
+            this.btn_cpt2_up7.Location = new System.Drawing.Point(0, 2);
+            this.btn_cpt2_up7.Name = "btn_cpt2_up7";
+            this.btn_cpt2_up7.Size = new System.Drawing.Size(121, 23);
+            this.btn_cpt2_up7.TabIndex = 55;
+            this.btn_cpt2_up7.Text = "cpt2 up7";
+            this.btn_cpt2_up7.UseVisualStyleBackColor = true;
+            this.btn_cpt2_up7.Click += new System.EventHandler(this.btn_cpt2_up7_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up1);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up2);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up3);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up4);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up1);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up2);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up3);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up4);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up5);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up6);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_cpt2_up7);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 130);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(259, 510);
+            this.flowLayoutPanel1.TabIndex = 57;
+            // 
+            // pnl_cpt1_click_up1
+            // 
+            this.pnl_cpt1_click_up1.Controls.Add(this.btn_cpt1_click_up1);
+            this.pnl_cpt1_click_up1.Controls.Add(this.label6);
+            this.pnl_cpt1_click_up1.Location = new System.Drawing.Point(0, 0);
+            this.pnl_cpt1_click_up1.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt1_click_up1.Name = "pnl_cpt1_click_up1";
+            this.pnl_cpt1_click_up1.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt1_click_up1.TabIndex = 58;
+            // 
+            // pnl_cpt1_click_up3
+            // 
+            this.pnl_cpt1_click_up3.Controls.Add(this.btn_cpt1_click_up3);
+            this.pnl_cpt1_click_up3.Controls.Add(this.label9);
+            this.pnl_cpt1_click_up3.Location = new System.Drawing.Point(0, 54);
+            this.pnl_cpt1_click_up3.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt1_click_up3.Name = "pnl_cpt1_click_up3";
+            this.pnl_cpt1_click_up3.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt1_click_up3.TabIndex = 61;
+            // 
+            // pnl_cpt1_click_up2
+            // 
+            this.pnl_cpt1_click_up2.Controls.Add(this.btn_cpt1_click_up2);
+            this.pnl_cpt1_click_up2.Controls.Add(this.label7);
+            this.pnl_cpt1_click_up2.Location = new System.Drawing.Point(0, 27);
+            this.pnl_cpt1_click_up2.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt1_click_up2.Name = "pnl_cpt1_click_up2";
+            this.pnl_cpt1_click_up2.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt1_click_up2.TabIndex = 61;
+            // 
+            // pnl_cpt2_up1
+            // 
+            this.pnl_cpt2_up1.Controls.Add(this.btn_cpt2_up1);
+            this.pnl_cpt2_up1.Controls.Add(this.label10);
+            this.pnl_cpt2_up1.Location = new System.Drawing.Point(0, 120);
+            this.pnl_cpt2_up1.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up1.Name = "pnl_cpt2_up1";
+            this.pnl_cpt2_up1.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up1.TabIndex = 61;
+            // 
+            // pnl_cpt1_click_up4
+            // 
+            this.pnl_cpt1_click_up4.Controls.Add(this.btn_cpt1_click_up4);
+            this.pnl_cpt1_click_up4.Controls.Add(this.label8);
+            this.pnl_cpt1_click_up4.Location = new System.Drawing.Point(0, 81);
+            this.pnl_cpt1_click_up4.Margin = new System.Windows.Forms.Padding(0, 0, 3, 15);
+            this.pnl_cpt1_click_up4.Name = "pnl_cpt1_click_up4";
+            this.pnl_cpt1_click_up4.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt1_click_up4.TabIndex = 61;
+            // 
+            // pnl_cpt2_up2
+            // 
+            this.pnl_cpt2_up2.Controls.Add(this.btn_cpt2_up2);
+            this.pnl_cpt2_up2.Controls.Add(this.label11);
+            this.pnl_cpt2_up2.Location = new System.Drawing.Point(0, 147);
+            this.pnl_cpt2_up2.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up2.Name = "pnl_cpt2_up2";
+            this.pnl_cpt2_up2.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up2.TabIndex = 62;
+            // 
+            // pnl_cpt2_up4
+            // 
+            this.pnl_cpt2_up4.Controls.Add(this.btn_cpt2_up3);
+            this.pnl_cpt2_up4.Controls.Add(this.label13);
+            this.pnl_cpt2_up4.Location = new System.Drawing.Point(0, 201);
+            this.pnl_cpt2_up4.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up4.Name = "pnl_cpt2_up4";
+            this.pnl_cpt2_up4.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up4.TabIndex = 62;
+            // 
+            // pnl_cpt2_up3
+            // 
+            this.pnl_cpt2_up3.Controls.Add(this.btn_cpt2_up4);
+            this.pnl_cpt2_up3.Controls.Add(this.label12);
+            this.pnl_cpt2_up3.Location = new System.Drawing.Point(0, 174);
+            this.pnl_cpt2_up3.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up3.Name = "pnl_cpt2_up3";
+            this.pnl_cpt2_up3.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up3.TabIndex = 62;
+            // 
+            // pnl_cpt2_up5
+            // 
+            this.pnl_cpt2_up5.Controls.Add(this.btn_cpt2_up5);
+            this.pnl_cpt2_up5.Controls.Add(this.label15);
+            this.pnl_cpt2_up5.Location = new System.Drawing.Point(0, 228);
+            this.pnl_cpt2_up5.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up5.Name = "pnl_cpt2_up5";
+            this.pnl_cpt2_up5.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up5.TabIndex = 62;
+            // 
+            // pnl_cpt2_up6
+            // 
+            this.pnl_cpt2_up6.Controls.Add(this.btn_cpt2_up6);
+            this.pnl_cpt2_up6.Controls.Add(this.label14);
+            this.pnl_cpt2_up6.Location = new System.Drawing.Point(0, 255);
+            this.pnl_cpt2_up6.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up6.Name = "pnl_cpt2_up6";
+            this.pnl_cpt2_up6.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up6.TabIndex = 62;
+            // 
+            // pnl_cpt2_up7
+            // 
+            this.pnl_cpt2_up7.Controls.Add(this.btn_cpt2_up7);
+            this.pnl_cpt2_up7.Controls.Add(this.label16);
+            this.pnl_cpt2_up7.Location = new System.Drawing.Point(0, 282);
+            this.pnl_cpt2_up7.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
+            this.pnl_cpt2_up7.Name = "pnl_cpt2_up7";
+            this.pnl_cpt2_up7.Size = new System.Drawing.Size(259, 24);
+            this.pnl_cpt2_up7.TabIndex = 62;
+            // 
+            // panel10
+            // 
+            this.panel10.Location = new System.Drawing.Point(586, 194);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(259, 24);
+            this.panel10.TabIndex = 62;
+            // 
+            // panel11
+            // 
+            this.panel11.Location = new System.Drawing.Point(586, 112);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(259, 24);
+            this.panel11.TabIndex = 63;
+            // 
+            // panel12
+            // 
+            this.panel12.Location = new System.Drawing.Point(586, 137);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(259, 24);
+            this.panel12.TabIndex = 63;
+            // 
+            // panel13
+            // 
+            this.panel13.Location = new System.Drawing.Point(586, 84);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(259, 24);
+            this.panel13.TabIndex = 63;
+            // 
+            // panel14
+            // 
+            this.panel14.Location = new System.Drawing.Point(586, 163);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(259, 24);
+            this.panel14.TabIndex = 63;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 556);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.btn_cpt1_click_up4);
-            this.Controls.Add(this.btn_cpt1_click_up3);
-            this.Controls.Add(this.btn_cpt1_click_up2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.btn_cpt1_click_up1);
+            this.ClientSize = new System.Drawing.Size(1331, 933);
+            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.panel11);
+            this.Controls.Add(this.panel12);
+            this.Controls.Add(this.panel14);
+            this.Controls.Add(this.panel10);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_cpt5_number);
             this.Controls.Add(this.lbl_cpt5_pizzen);
@@ -543,6 +873,29 @@
             this.Text = "Pizza_Clicker made by GMJGmbH";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.pnl_cpt1_click_up1.ResumeLayout(false);
+            this.pnl_cpt1_click_up1.PerformLayout();
+            this.pnl_cpt1_click_up3.ResumeLayout(false);
+            this.pnl_cpt1_click_up3.PerformLayout();
+            this.pnl_cpt1_click_up2.ResumeLayout(false);
+            this.pnl_cpt1_click_up2.PerformLayout();
+            this.pnl_cpt2_up1.ResumeLayout(false);
+            this.pnl_cpt2_up1.PerformLayout();
+            this.pnl_cpt1_click_up4.ResumeLayout(false);
+            this.pnl_cpt1_click_up4.PerformLayout();
+            this.pnl_cpt2_up2.ResumeLayout(false);
+            this.pnl_cpt2_up2.PerformLayout();
+            this.pnl_cpt2_up4.ResumeLayout(false);
+            this.pnl_cpt2_up4.PerformLayout();
+            this.pnl_cpt2_up3.ResumeLayout(false);
+            this.pnl_cpt2_up3.PerformLayout();
+            this.pnl_cpt2_up5.ResumeLayout(false);
+            this.pnl_cpt2_up5.PerformLayout();
+            this.pnl_cpt2_up6.ResumeLayout(false);
+            this.pnl_cpt2_up6.PerformLayout();
+            this.pnl_cpt2_up7.ResumeLayout(false);
+            this.pnl_cpt2_up7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -586,7 +939,6 @@
         private System.Windows.Forms.Button shop_cpt5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_cpt1_click_up1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btn_cpt1_click_up2;
         private System.Windows.Forms.Button btn_cpt1_click_up3;
         private System.Windows.Forms.Button btn_cpt1_click_up4;
@@ -594,6 +946,37 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btn_cpt2_up1;
+        private System.Windows.Forms.Button btn_cpt2_up2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btn_cpt2_up4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btn_cpt2_up3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btn_cpt2_up6;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button btn_cpt2_up5;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button btn_cpt2_up7;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel pnl_cpt1_click_up1;
+        private System.Windows.Forms.Panel pnl_cpt1_click_up2;
+        private System.Windows.Forms.Panel pnl_cpt1_click_up3;
+        private System.Windows.Forms.Panel pnl_cpt2_up1;
+        private System.Windows.Forms.Panel pnl_cpt1_click_up4;
+        private System.Windows.Forms.Panel pnl_cpt2_up2;
+        private System.Windows.Forms.Panel pnl_cpt2_up4;
+        private System.Windows.Forms.Panel pnl_cpt2_up3;
+        private System.Windows.Forms.Panel pnl_cpt2_up5;
+        private System.Windows.Forms.Panel pnl_cpt2_up6;
+        private System.Windows.Forms.Panel pnl_cpt2_up7;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
     }
 }
 

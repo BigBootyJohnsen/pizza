@@ -184,6 +184,10 @@ namespace Pizza_Clicker_WhoaGeilEy
             }
         }
 
+
+
+
+        //click up
         private void btn_click_up1_Click(object sender, EventArgs e)
         {
             if (pizza_count >= 50000)
@@ -239,10 +243,151 @@ namespace Pizza_Clicker_WhoaGeilEy
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            pizza_count += 10000000000;
+            pizza_count += 10000000000000;
         }
 
- 
+
+
+
+
+        //cpt 1 up
+        private void btn_cpt1_click_up1_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 100)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt1_pizzen);
+                pizza_cpt1_pizzen *= 2;
+                lbl_cpt1_pizzen.Text = Convert.ToString(pizza_cpt1_pizzen);
+                pnl_cpt1_click_up1.Visible = false;
+            }
+        }
+
+        private void btn_cpt1_click_up2_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 500)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt1_pizzen);
+                pizza_cpt1_pizzen *= 2;
+                lbl_cpt1_pizzen.Text = Convert.ToString(pizza_cpt1_pizzen);
+                pnl_cpt1_click_up2.Visible = false;
+
+            }
+        }
+
+        private void btn_cpt1_click_up3_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 1000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt1_pizzen);
+                pizza_cpt1_pizzen *= 2;
+                lbl_cpt1_pizzen.Text = Convert.ToString(pizza_cpt1_pizzen);
+                btn_cpt1_click_up3.Visible = false;
+
+            }
+        }
+
+        private void btn_cpt1_click_up4_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 100000)
+            {
+
+
+
+                btn_cpt1_click_up3.Visible = false;
+            }
+        }
+
+
+        //cpt 2 up
+        private void btn_cpt2_up1_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 1000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up1.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up2_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 5000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up2.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up3_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up3.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up4_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 5000000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up4.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up5_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 500000000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up5.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up6_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000000000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up6.Visible = false;
+            }
+        }
+
+        private void btn_cpt2_up7_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= 50000000000000)
+            {
+                pizza_click *= 2;
+                pizza_cpt = pizza_cpt + (pizza_cpt1_number * pizza_cpt2_pizzen);
+                pizza_cpt2_pizzen *= 2;
+                lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
+                pnl_cpt2_up7.Visible = false;
+
+            }
+        }
+
+   
     }
 }
 //jayden hat ein geilen lsdefgiouv8s9doynhizgtfisgsghjsrgusicogzbshzfubsizfgtszfuilsfbgsufhjsikiongding dog
