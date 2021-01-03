@@ -136,6 +136,8 @@
             this.label23 = new System.Windows.Forms.Label();
             this.btn_cpt3_up7 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -143,9 +145,19 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label24 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
             this.click = new System.Windows.Forms.Label();
+            this.lbl_cpt6_number = new System.Windows.Forms.Label();
+            this.lbl_cpt6_pizzen = new System.Windows.Forms.Label();
+            this.lbl_cpt6_cost = new System.Windows.Forms.Label();
+            this.shop_cpt6 = new System.Windows.Forms.Button();
+            this.lbl_cpt7_number = new System.Windows.Forms.Label();
+            this.lbl_cpt7_pizzen = new System.Windows.Forms.Label();
+            this.lbl_cpt7_cost = new System.Windows.Forms.Label();
+            this.shop_cpt7 = new System.Windows.Forms.Button();
+            this.lbl_cpt8_number = new System.Windows.Forms.Label();
+            this.lbl_cpt8_pizzen = new System.Windows.Forms.Label();
+            this.lbl_cpt8_cost = new System.Windows.Forms.Label();
+            this.shop_cpt8 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.pnl_cpt1_click_up1.SuspendLayout();
@@ -1233,6 +1245,24 @@
             this.panel9.Size = new System.Drawing.Size(259, 24);
             this.panel9.TabIndex = 63;
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(127, 5);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(40, 13);
+            this.label29.TabIndex = 59;
+            this.label29.Text = "11.000";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.TabIndex = 58;
+            this.button2.Text = "cpt3 up1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // panel15
             // 
             this.panel15.Location = new System.Drawing.Point(302, 449);
@@ -1281,24 +1311,6 @@
             this.label24.TabIndex = 64;
             this.label24.Text = "label24";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 23);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "cpt3 up1";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(127, 5);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(40, 13);
-            this.label29.TabIndex = 59;
-            this.label29.Text = "11.000";
-            // 
             // click
             // 
             this.click.AutoSize = true;
@@ -1308,11 +1320,140 @@
             this.click.TabIndex = 65;
             this.click.Text = "label30";
             // 
+            // lbl_cpt6_number
+            // 
+            this.lbl_cpt6_number.AutoSize = true;
+            this.lbl_cpt6_number.Location = new System.Drawing.Point(992, 346);
+            this.lbl_cpt6_number.Name = "lbl_cpt6_number";
+            this.lbl_cpt6_number.Size = new System.Drawing.Size(13, 13);
+            this.lbl_cpt6_number.TabIndex = 69;
+            this.lbl_cpt6_number.Text = "0";
+            // 
+            // lbl_cpt6_pizzen
+            // 
+            this.lbl_cpt6_pizzen.AutoSize = true;
+            this.lbl_cpt6_pizzen.Location = new System.Drawing.Point(992, 329);
+            this.lbl_cpt6_pizzen.Name = "lbl_cpt6_pizzen";
+            this.lbl_cpt6_pizzen.Size = new System.Drawing.Size(31, 13);
+            this.lbl_cpt6_pizzen.TabIndex = 68;
+            this.lbl_cpt6_pizzen.Text = "1400";
+            // 
+            // lbl_cpt6_cost
+            // 
+            this.lbl_cpt6_cost.AutoSize = true;
+            this.lbl_cpt6_cost.Location = new System.Drawing.Point(989, 312);
+            this.lbl_cpt6_cost.Name = "lbl_cpt6_cost";
+            this.lbl_cpt6_cost.Size = new System.Drawing.Size(55, 13);
+            this.lbl_cpt6_cost.TabIndex = 67;
+            this.lbl_cpt6_cost.Text = "1.400.000";
+            // 
+            // shop_cpt6
+            // 
+            this.shop_cpt6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.shop_cpt6.FlatAppearance.BorderSize = 0;
+            this.shop_cpt6.Location = new System.Drawing.Point(1056, 312);
+            this.shop_cpt6.Name = "shop_cpt6";
+            this.shop_cpt6.Size = new System.Drawing.Size(51, 47);
+            this.shop_cpt6.TabIndex = 66;
+            this.shop_cpt6.Text = "UP 6";
+            this.shop_cpt6.UseVisualStyleBackColor = true;
+            this.shop_cpt6.Click += new System.EventHandler(this.shop_cpt6_Click);
+            // 
+            // lbl_cpt7_number
+            // 
+            this.lbl_cpt7_number.AutoSize = true;
+            this.lbl_cpt7_number.Location = new System.Drawing.Point(992, 399);
+            this.lbl_cpt7_number.Name = "lbl_cpt7_number";
+            this.lbl_cpt7_number.Size = new System.Drawing.Size(13, 13);
+            this.lbl_cpt7_number.TabIndex = 73;
+            this.lbl_cpt7_number.Text = "0";
+            // 
+            // lbl_cpt7_pizzen
+            // 
+            this.lbl_cpt7_pizzen.AutoSize = true;
+            this.lbl_cpt7_pizzen.Location = new System.Drawing.Point(992, 382);
+            this.lbl_cpt7_pizzen.Name = "lbl_cpt7_pizzen";
+            this.lbl_cpt7_pizzen.Size = new System.Drawing.Size(31, 13);
+            this.lbl_cpt7_pizzen.TabIndex = 72;
+            this.lbl_cpt7_pizzen.Text = "7800";
+            // 
+            // lbl_cpt7_cost
+            // 
+            this.lbl_cpt7_cost.AutoSize = true;
+            this.lbl_cpt7_cost.Location = new System.Drawing.Point(989, 365);
+            this.lbl_cpt7_cost.Name = "lbl_cpt7_cost";
+            this.lbl_cpt7_cost.Size = new System.Drawing.Size(61, 13);
+            this.lbl_cpt7_cost.TabIndex = 71;
+            this.lbl_cpt7_cost.Text = "20.000.000";
+            // 
+            // shop_cpt7
+            // 
+            this.shop_cpt7.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.shop_cpt7.FlatAppearance.BorderSize = 0;
+            this.shop_cpt7.Location = new System.Drawing.Point(1056, 365);
+            this.shop_cpt7.Name = "shop_cpt7";
+            this.shop_cpt7.Size = new System.Drawing.Size(51, 47);
+            this.shop_cpt7.TabIndex = 70;
+            this.shop_cpt7.Text = "UP 7";
+            this.shop_cpt7.UseVisualStyleBackColor = true;
+            this.shop_cpt7.Click += new System.EventHandler(this.shop_cpt7_Click);
+            // 
+            // lbl_cpt8_number
+            // 
+            this.lbl_cpt8_number.AutoSize = true;
+            this.lbl_cpt8_number.Location = new System.Drawing.Point(992, 452);
+            this.lbl_cpt8_number.Name = "lbl_cpt8_number";
+            this.lbl_cpt8_number.Size = new System.Drawing.Size(13, 13);
+            this.lbl_cpt8_number.TabIndex = 77;
+            this.lbl_cpt8_number.Text = "0";
+            // 
+            // lbl_cpt8_pizzen
+            // 
+            this.lbl_cpt8_pizzen.AutoSize = true;
+            this.lbl_cpt8_pizzen.Location = new System.Drawing.Point(992, 435);
+            this.lbl_cpt8_pizzen.Name = "lbl_cpt8_pizzen";
+            this.lbl_cpt8_pizzen.Size = new System.Drawing.Size(37, 13);
+            this.lbl_cpt8_pizzen.TabIndex = 76;
+            this.lbl_cpt8_pizzen.Text = "44000";
+            // 
+            // lbl_cpt8_cost
+            // 
+            this.lbl_cpt8_cost.AutoSize = true;
+            this.lbl_cpt8_cost.Location = new System.Drawing.Point(989, 418);
+            this.lbl_cpt8_cost.Name = "lbl_cpt8_cost";
+            this.lbl_cpt8_cost.Size = new System.Drawing.Size(67, 13);
+            this.lbl_cpt8_cost.TabIndex = 75;
+            this.lbl_cpt8_cost.Text = "330.000.000";
+            // 
+            // shop_cpt8
+            // 
+            this.shop_cpt8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.shop_cpt8.FlatAppearance.BorderSize = 0;
+            this.shop_cpt8.Location = new System.Drawing.Point(1056, 418);
+            this.shop_cpt8.Name = "shop_cpt8";
+            this.shop_cpt8.Size = new System.Drawing.Size(51, 47);
+            this.shop_cpt8.TabIndex = 74;
+            this.shop_cpt8.Text = "UP 8";
+            this.shop_cpt8.UseVisualStyleBackColor = true;
+            this.shop_cpt8.Click += new System.EventHandler(this.shop_cpt8_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1331, 1061);
+            this.Controls.Add(this.lbl_cpt8_number);
+            this.Controls.Add(this.lbl_cpt8_pizzen);
+            this.Controls.Add(this.lbl_cpt8_cost);
+            this.Controls.Add(this.shop_cpt8);
+            this.Controls.Add(this.lbl_cpt7_number);
+            this.Controls.Add(this.lbl_cpt7_pizzen);
+            this.Controls.Add(this.lbl_cpt7_cost);
+            this.Controls.Add(this.shop_cpt7);
+            this.Controls.Add(this.lbl_cpt6_number);
+            this.Controls.Add(this.lbl_cpt6_pizzen);
+            this.Controls.Add(this.lbl_cpt6_cost);
+            this.Controls.Add(this.shop_cpt6);
             this.Controls.Add(this.click);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.panel19);
@@ -1534,6 +1675,18 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label click;
+        private System.Windows.Forms.Label lbl_cpt6_number;
+        private System.Windows.Forms.Label lbl_cpt6_pizzen;
+        private System.Windows.Forms.Label lbl_cpt6_cost;
+        private System.Windows.Forms.Button shop_cpt6;
+        private System.Windows.Forms.Label lbl_cpt7_number;
+        private System.Windows.Forms.Label lbl_cpt7_pizzen;
+        private System.Windows.Forms.Label lbl_cpt7_cost;
+        private System.Windows.Forms.Button shop_cpt7;
+        private System.Windows.Forms.Label lbl_cpt8_number;
+        private System.Windows.Forms.Label lbl_cpt8_pizzen;
+        private System.Windows.Forms.Label lbl_cpt8_cost;
+        private System.Windows.Forms.Button shop_cpt8;
     }
 }
 

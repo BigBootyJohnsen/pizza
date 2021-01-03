@@ -393,7 +393,56 @@ namespace Pizza_Clicker_WhoaGeilEy
                 lbl_cpt5_cost.Text = Convert.ToString(pizza_cpt5_cost);
             }
         }
+        private void shop_cpt6_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt6_cost)
+            {
+                pizza_cpt += pizza_cpt6_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_cpt6_number++;
+                pizza_count -= pizza_cpt6_cost;
+                pizza_cpt6_cost = Convert.ToInt64(Convert.ToDouble(pizza_cpt6_cost) * 1.15);
+                lblPizza_count.Text = "Pizzen: " + pizza_count;
 
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt6_number.Text = Convert.ToString(pizza_cpt6_number);
+                lbl_cpt6_pizzen.Text = Convert.ToString(pizza_cpt6_pizzen);
+                lbl_cpt6_cost.Text = Convert.ToString(pizza_cpt6_cost);
+            }
+        }
+
+        private void shop_cpt7_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt7_cost)
+            {
+                pizza_cpt += pizza_cpt7_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_cpt7_number++;
+                pizza_count -= pizza_cpt7_cost;
+                pizza_cpt7_cost = Convert.ToInt64(Convert.ToDouble(pizza_cpt7_cost) * 1.15);
+                lblPizza_count.Text = "Pizzen: " + pizza_count;
+
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt7_number.Text = Convert.ToString(pizza_cpt7_number);
+                lbl_cpt7_pizzen.Text = Convert.ToString(pizza_cpt7_pizzen);
+                lbl_cpt7_cost.Text = Convert.ToString(pizza_cpt7_cost);
+            }
+        }
+
+        private void shop_cpt8_Click(object sender, EventArgs e)
+        {
+            if (pizza_count >= pizza_cpt8_cost)
+            {
+                pizza_cpt += pizza_cpt8_pizzen; //dem gesamtem cpt wird der cpt des gekauften hinzugefügt 
+                pizza_cpt8_number++;
+                pizza_count -= pizza_cpt8_cost;
+                pizza_cpt8_cost = Convert.ToInt64(Convert.ToDouble(pizza_cpt8_cost) * 1.15);
+                lblPizza_count.Text = "Pizzen: " + pizza_count;
+
+                //gibt die infos über das cpt weiter an die lbl
+                lbl_cpt8_number.Text = Convert.ToString(pizza_cpt8_number);
+                lbl_cpt8_pizzen.Text = Convert.ToString(pizza_cpt8_pizzen);
+                lbl_cpt8_cost.Text = Convert.ToString(pizza_cpt8_cost);
+            }
+        }
 
 
 
@@ -723,8 +772,6 @@ namespace Pizza_Clicker_WhoaGeilEy
                 pnl_cpt3_up7.Visible = false;
             }
         }
-
-
 
 
     }
