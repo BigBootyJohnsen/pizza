@@ -158,6 +158,7 @@
             this.lbl_cpt8_pizzen = new System.Windows.Forms.Label();
             this.lbl_cpt8_cost = new System.Windows.Forms.Label();
             this.shop_cpt8 = new System.Windows.Forms.Button();
+            this.move = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.pnl_cpt1_click_up1.SuspendLayout();
@@ -1437,11 +1438,21 @@
             this.shop_cpt8.UseVisualStyleBackColor = true;
             this.shop_cpt8.Click += new System.EventHandler(this.shop_cpt8_Click);
             // 
+            // move
+            // 
+            this.move.AutoSize = true;
+            this.move.Location = new System.Drawing.Point(682, 72);
+            this.move.Name = "move";
+            this.move.Size = new System.Drawing.Size(33, 13);
+            this.move.TabIndex = 78;
+            this.move.Text = "move";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1331, 1061);
+            this.Controls.Add(this.move);
             this.Controls.Add(this.lbl_cpt8_number);
             this.Controls.Add(this.lbl_cpt8_pizzen);
             this.Controls.Add(this.lbl_cpt8_cost);
@@ -1687,6 +1698,7 @@
         private System.Windows.Forms.Label lbl_cpt8_pizzen;
         private System.Windows.Forms.Label lbl_cpt8_cost;
         private System.Windows.Forms.Button shop_cpt8;
+        private System.Windows.Forms.Label move;
     }
 }
 
