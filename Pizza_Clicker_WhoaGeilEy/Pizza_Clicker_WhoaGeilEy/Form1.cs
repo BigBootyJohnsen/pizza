@@ -71,10 +71,10 @@ namespace Pizza_Clicker_WhoaGeilEy
 
 
         //click up multiplyer
-        public double pizza_click_up1_multiplyer = 1;
-        public double pizza_click_up2_multiplyer = 1;
-        public double pizza_click_up3_multiplyer = 1;
-        public double pizza_click_up4_multiplyer = 1;
+        public double pizza_click_up1_multiplyer = 0;
+        public double pizza_click_up2_multiplyer = 0;
+        public double pizza_click_up3_multiplyer = 0;
+        public double pizza_click_up4_multiplyer = 0;
 
 
 
@@ -245,7 +245,7 @@ namespace Pizza_Clicker_WhoaGeilEy
                 * pizza_cpt12_number
                 * pizza_cpt13_number
                 * pizza_cpt14_number
-                )) * (pizza_click_up1_multiplyer * pizza_click_up2_multiplyer * pizza_click_up3_multiplyer * pizza_click_up4_multiplyer * pizza_cpt) - pizza_cpt);
+                )) + ((pizza_click_up1_multiplyer * pizza_cpt) + (pizza_click_up2_multiplyer * pizza_cpt) + (pizza_click_up3_multiplyer * pizza_cpt) + (pizza_click_up4_multiplyer * pizza_cpt)));
             
 
             //anzeigen der upgrade button, wenn die bedingung erfüllt ist
@@ -664,7 +664,7 @@ namespace Pizza_Clicker_WhoaGeilEy
             if (pizza_count >= 50000)
             {
                 
-                pizza_click_up1_multiplyer = 1.01;
+                pizza_click_up1_multiplyer = 0.01;
                 btn_click_up1.Visible = false;
             }
         }
@@ -673,7 +673,7 @@ namespace Pizza_Clicker_WhoaGeilEy
         {
             if (pizza_count >= 5000000)
             {
-                pizza_click_up2_multiplyer = 1.01;
+                pizza_click_up2_multiplyer = 0.01;
                 btn_click_up1.Visible = false;
             }
         }
@@ -682,7 +682,7 @@ namespace Pizza_Clicker_WhoaGeilEy
         {
             if (pizza_count >= 500000000)
             {
-                pizza_click_up3_multiplyer = 1.01;
+                pizza_click_up3_multiplyer = 0.01;
                 btn_click_up1.Visible = false;
             }
         }
@@ -691,7 +691,7 @@ namespace Pizza_Clicker_WhoaGeilEy
         {
             if (pizza_count >= 50000000000)
             {
-                pizza_click_up4_multiplyer = 1.01;
+                pizza_click_up4_multiplyer = 0.01;
                 btn_click_up1.Visible = false;
             }
         }
@@ -699,7 +699,7 @@ namespace Pizza_Clicker_WhoaGeilEy
         {
             if (pizza_count >= 50000000000)
             {
-                pizza_click = pizza_click + (pizza_click * 1.01);
+                pizza_click = pizza_click + (pizza_click * 0.01);
                 btn_click_up1.Visible = false;
 
             }
@@ -1512,6 +1512,7 @@ namespace Pizza_Clicker_WhoaGeilEy
                 pizza_count -= 165000000000000000;
             }
         }
+
 
     }
 }
