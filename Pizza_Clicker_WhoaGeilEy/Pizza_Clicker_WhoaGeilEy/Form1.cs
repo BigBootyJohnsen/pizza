@@ -176,7 +176,7 @@ namespace Pizza_Clicker_WhoaGeilEy
                 * pizza_cpt12_number
                 * pizza_cpt13_number
                 * pizza_cpt14_number
-                )) * ((pizza_click_up1_multiplyer * pizza_click_up2_multiplyer * pizza_click_up3_multiplyer * pizza_click_up4_multiplyer * pizza_cpt) - pizza_cpt); // = pizza_count = pizza_count + pizza_click;
+                )) + ((pizza_click_up1_multiplyer * pizza_cpt) + (pizza_click_up2_multiplyer * pizza_cpt) + (pizza_click_up3_multiplyer * pizza_cpt) + (pizza_click_up4_multiplyer * pizza_cpt)); // = pizza_count = pizza_count + pizza_click;
 
 
             pizza_only_click += (pizza_click + (0.1 * cpt1_up4_val
@@ -194,7 +194,7 @@ namespace Pizza_Clicker_WhoaGeilEy
                 * pizza_cpt12_number
                 * pizza_cpt13_number
                 * pizza_cpt14_number
-                )) * ((pizza_click_up1_multiplyer * pizza_click_up2_multiplyer * pizza_click_up3_multiplyer * pizza_click_up4_multiplyer * pizza_cpt) - pizza_cpt); // = pizza_count = pizza_count + pizza_click;
+                )) + ((pizza_click_up1_multiplyer * pizza_cpt) + (pizza_click_up2_multiplyer * pizza_cpt) + (pizza_click_up3_multiplyer * pizza_cpt) + (pizza_click_up4_multiplyer * pizza_cpt)); // = pizza_count = pizza_count + pizza_click;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -666,6 +666,8 @@ namespace Pizza_Clicker_WhoaGeilEy
                 
                 pizza_click_up1_multiplyer = 0.01;
                 btn_click_up1.Visible = false;
+                label2.Visible = false; 
+
             }
         }
 
