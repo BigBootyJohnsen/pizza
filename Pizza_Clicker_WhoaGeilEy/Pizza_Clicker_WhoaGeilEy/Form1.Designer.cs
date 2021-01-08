@@ -51,7 +51,6 @@
             this.btn_click_up2 = new System.Windows.Forms.Button();
             this.btn_click_up4 = new System.Windows.Forms.Button();
             this.btn_click_up3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -243,8 +242,11 @@
             this.pnl_cpt8_up6 = new System.Windows.Forms.Panel();
             this.label65 = new System.Windows.Forms.Label();
             this.btn_cpt8_up6 = new System.Windows.Forms.Button();
+            this.pnl_click_up1 = new System.Windows.Forms.Panel();
+            this.pnl_click_up2 = new System.Windows.Forms.Panel();
+            this.pnl_click_up3 = new System.Windows.Forms.Panel();
+            this.pnl_click_up4 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label24 = new System.Windows.Forms.Label();
             this.click = new System.Windows.Forms.Label();
             this.lbl_cpt6_number = new System.Windows.Forms.Label();
             this.lbl_cpt6_pizzen = new System.Windows.Forms.Label();
@@ -258,9 +260,7 @@
             this.lbl_cpt8_pizzen = new System.Windows.Forms.Label();
             this.lbl_cpt8_cost = new System.Windows.Forms.Label();
             this.shop_cpt8 = new System.Windows.Forms.Button();
-            this.move = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnl_cpt1_click_up1.SuspendLayout();
             this.pnl_cpt1_click_up2.SuspendLayout();
@@ -321,6 +321,10 @@
             this.pnl_cpt8_up4.SuspendLayout();
             this.pnl_cpt8_up5.SuspendLayout();
             this.pnl_cpt8_up6.SuspendLayout();
+            this.pnl_click_up1.SuspendLayout();
+            this.pnl_click_up2.SuspendLayout();
+            this.pnl_click_up3.SuspendLayout();
+            this.pnl_click_up4.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPizza_click
@@ -336,7 +340,7 @@
             // lblPizza_count
             // 
             this.lblPizza_count.AutoSize = true;
-            this.lblPizza_count.Location = new System.Drawing.Point(693, 287);
+            this.lblPizza_count.Location = new System.Drawing.Point(693, 236);
             this.lblPizza_count.Name = "lblPizza_count";
             this.lblPizza_count.Size = new System.Drawing.Size(38, 13);
             this.lblPizza_count.TabIndex = 1;
@@ -344,7 +348,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(1179, 131);
+            this.btnExit.Location = new System.Drawing.Point(1197, 954);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 2;
@@ -438,7 +442,7 @@
             // lbl_cpt_ps
             // 
             this.lbl_cpt_ps.AutoSize = true;
-            this.lbl_cpt_ps.Location = new System.Drawing.Point(693, 305);
+            this.lbl_cpt_ps.Location = new System.Drawing.Point(693, 257);
             this.lbl_cpt_ps.Name = "lbl_cpt_ps";
             this.lbl_cpt_ps.Size = new System.Drawing.Size(48, 13);
             this.lbl_cpt_ps.TabIndex = 11;
@@ -485,7 +489,7 @@
             // 
             // btn_click_up1
             // 
-            this.btn_click_up1.Location = new System.Drawing.Point(12, 24);
+            this.btn_click_up1.Location = new System.Drawing.Point(0, 0);
             this.btn_click_up1.Name = "btn_click_up1";
             this.btn_click_up1.Size = new System.Drawing.Size(75, 23);
             this.btn_click_up1.TabIndex = 16;
@@ -495,7 +499,7 @@
             // 
             // btn_click_up2
             // 
-            this.btn_click_up2.Location = new System.Drawing.Point(12, 46);
+            this.btn_click_up2.Location = new System.Drawing.Point(0, 0);
             this.btn_click_up2.Name = "btn_click_up2";
             this.btn_click_up2.Size = new System.Drawing.Size(75, 23);
             this.btn_click_up2.TabIndex = 17;
@@ -505,7 +509,7 @@
             // 
             // btn_click_up4
             // 
-            this.btn_click_up4.Location = new System.Drawing.Point(12, 85);
+            this.btn_click_up4.Location = new System.Drawing.Point(0, 0);
             this.btn_click_up4.Name = "btn_click_up4";
             this.btn_click_up4.Size = new System.Drawing.Size(75, 23);
             this.btn_click_up4.TabIndex = 19;
@@ -515,7 +519,7 @@
             // 
             // btn_click_up3
             // 
-            this.btn_click_up3.Location = new System.Drawing.Point(12, 63);
+            this.btn_click_up3.Location = new System.Drawing.Point(0, 0);
             this.btn_click_up3.Name = "btn_click_up3";
             this.btn_click_up3.Size = new System.Drawing.Size(75, 23);
             this.btn_click_up3.TabIndex = 18;
@@ -523,19 +527,10 @@
             this.btn_click_up3.UseVisualStyleBackColor = true;
             this.btn_click_up3.Click += new System.EventHandler(this.btn_click_up3_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "click +1% von cpt";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 29);
+            this.label2.Location = new System.Drawing.Point(81, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 21;
@@ -544,7 +539,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(93, 51);
+            this.label3.Location = new System.Drawing.Point(81, 5);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 22;
@@ -553,7 +548,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(93, 71);
+            this.label4.Location = new System.Drawing.Point(81, 5);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 23;
@@ -562,7 +557,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(93, 90);
+            this.label5.Location = new System.Drawing.Point(81, 3);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 13);
             this.label5.TabIndex = 24;
@@ -851,7 +846,11 @@
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt8_up4);
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt8_up5);
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt8_up6);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 114);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_click_up1);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_click_up2);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_click_up3);
+            this.flowLayoutPanel1.Controls.Add(this.pnl_click_up4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(324, 878);
             this.flowLayoutPanel1.TabIndex = 57;
@@ -870,11 +869,13 @@
             // btn_cpt1_click_up1
             // 
             this.btn_cpt1_click_up1.Location = new System.Drawing.Point(0, 0);
+            this.btn_cpt1_click_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.btn_cpt1_click_up1.Name = "btn_cpt1_click_up1";
             this.btn_cpt1_click_up1.Size = new System.Drawing.Size(121, 23);
             this.btn_cpt1_click_up1.TabIndex = 34;
             this.btn_cpt1_click_up1.Text = "click und cpt1 up1";
             this.btn_cpt1_click_up1.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up1.Click += new System.EventHandler(this.btn_cpt1_click_up1_Click_1);
             // 
             // label30
             // 
@@ -904,6 +905,7 @@
             this.btn_cpt1_click_up2.TabIndex = 36;
             this.btn_cpt1_click_up2.Text = "click und cpt1 up2";
             this.btn_cpt1_click_up2.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up2.Click += new System.EventHandler(this.btn_cpt1_click_up2_Click_1);
             // 
             // label31
             // 
@@ -933,6 +935,7 @@
             this.btn_cpt1_click_up3.TabIndex = 37;
             this.btn_cpt1_click_up3.Text = "click und cpt1 up3";
             this.btn_cpt1_click_up3.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up3.Click += new System.EventHandler(this.btn_cpt1_click_up3_Click);
             // 
             // label32
             // 
@@ -962,6 +965,7 @@
             this.btn_cpt1_click_up4.TabIndex = 38;
             this.btn_cpt1_click_up4.Text = "click und cpt1 up4";
             this.btn_cpt1_click_up4.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up4.Click += new System.EventHandler(this.btn_cpt1_click_up4_Click);
             // 
             // label33
             // 
@@ -1000,6 +1004,7 @@
             this.btn_cpt1_click_up5.TabIndex = 39;
             this.btn_cpt1_click_up5.Text = "click und cpt1 up5";
             this.btn_cpt1_click_up5.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up5.Click += new System.EventHandler(this.btn_cpt1_click_up5_Click);
             // 
             // pnl_cpt1_click_up6
             // 
@@ -1029,6 +1034,7 @@
             this.btn_cpt1_click_up6.TabIndex = 44;
             this.btn_cpt1_click_up6.Text = "click und cpt1 up6";
             this.btn_cpt1_click_up6.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up6.Click += new System.EventHandler(this.btn_cpt1_click_up6_Click);
             // 
             // pnl_cpt1_click_up7
             // 
@@ -1058,6 +1064,7 @@
             this.btn_cpt1_click_up7.TabIndex = 49;
             this.btn_cpt1_click_up7.Text = "click und cpt1 up7";
             this.btn_cpt1_click_up7.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up7.Click += new System.EventHandler(this.btn_cpt1_click_up7_Click);
             // 
             // pnl_cpt1_click_up8
             // 
@@ -1087,6 +1094,7 @@
             this.btn_cpt1_click_up8.TabIndex = 67;
             this.btn_cpt1_click_up8.Text = "click und cpt1 up8";
             this.btn_cpt1_click_up8.UseVisualStyleBackColor = true;
+            this.btn_cpt1_click_up8.Click += new System.EventHandler(this.btn_cpt1_click_up8_Click);
             // 
             // pnl_cpt2_up1
             // 
@@ -1379,7 +1387,8 @@
             // 
             this.pnl_cpt4_up1.Controls.Add(this.label6);
             this.pnl_cpt4_up1.Controls.Add(this.btn_cpt4_up1);
-            this.pnl_cpt4_up1.Location = new System.Drawing.Point(3, 611);
+            this.pnl_cpt4_up1.Location = new System.Drawing.Point(0, 611);
+            this.pnl_cpt4_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up1.Name = "pnl_cpt4_up1";
             this.pnl_cpt4_up1.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up1.TabIndex = 82;
@@ -1408,7 +1417,8 @@
             // 
             this.pnl_cpt4_up2.Controls.Add(this.label7);
             this.pnl_cpt4_up2.Controls.Add(this.btn_cpt4_up2);
-            this.pnl_cpt4_up2.Location = new System.Drawing.Point(3, 641);
+            this.pnl_cpt4_up2.Location = new System.Drawing.Point(0, 641);
+            this.pnl_cpt4_up2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up2.Name = "pnl_cpt4_up2";
             this.pnl_cpt4_up2.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up2.TabIndex = 83;
@@ -1437,7 +1447,8 @@
             // 
             this.pnl_cpt4_up3.Controls.Add(this.label8);
             this.pnl_cpt4_up3.Controls.Add(this.btn_cpt4_up3);
-            this.pnl_cpt4_up3.Location = new System.Drawing.Point(3, 671);
+            this.pnl_cpt4_up3.Location = new System.Drawing.Point(0, 671);
+            this.pnl_cpt4_up3.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up3.Name = "pnl_cpt4_up3";
             this.pnl_cpt4_up3.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up3.TabIndex = 83;
@@ -1466,7 +1477,8 @@
             // 
             this.pnl_cpt4_up4.Controls.Add(this.label26);
             this.pnl_cpt4_up4.Controls.Add(this.btn_cpt4_up4);
-            this.pnl_cpt4_up4.Location = new System.Drawing.Point(3, 701);
+            this.pnl_cpt4_up4.Location = new System.Drawing.Point(0, 701);
+            this.pnl_cpt4_up4.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up4.Name = "pnl_cpt4_up4";
             this.pnl_cpt4_up4.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up4.TabIndex = 84;
@@ -1495,7 +1507,8 @@
             // 
             this.pnl_cpt4_up5.Controls.Add(this.label25);
             this.pnl_cpt4_up5.Controls.Add(this.btn_cpt4_up5);
-            this.pnl_cpt4_up5.Location = new System.Drawing.Point(3, 731);
+            this.pnl_cpt4_up5.Location = new System.Drawing.Point(0, 731);
+            this.pnl_cpt4_up5.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up5.Name = "pnl_cpt4_up5";
             this.pnl_cpt4_up5.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up5.TabIndex = 85;
@@ -1524,7 +1537,8 @@
             // 
             this.pnl_cpt4_up6.Controls.Add(this.label9);
             this.pnl_cpt4_up6.Controls.Add(this.btn_cpt4_up6);
-            this.pnl_cpt4_up6.Location = new System.Drawing.Point(3, 761);
+            this.pnl_cpt4_up6.Location = new System.Drawing.Point(0, 761);
+            this.pnl_cpt4_up6.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up6.Name = "pnl_cpt4_up6";
             this.pnl_cpt4_up6.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up6.TabIndex = 86;
@@ -1553,7 +1567,8 @@
             // 
             this.pnl_cpt4_up7.Controls.Add(this.label28);
             this.pnl_cpt4_up7.Controls.Add(this.btn_cpt4_up7);
-            this.pnl_cpt4_up7.Location = new System.Drawing.Point(3, 791);
+            this.pnl_cpt4_up7.Location = new System.Drawing.Point(0, 791);
+            this.pnl_cpt4_up7.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up7.Name = "pnl_cpt4_up7";
             this.pnl_cpt4_up7.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up7.TabIndex = 87;
@@ -1582,7 +1597,8 @@
             // 
             this.pnl_cpt4_up8.Controls.Add(this.label27);
             this.pnl_cpt4_up8.Controls.Add(this.btn_cpt4_up8);
-            this.pnl_cpt4_up8.Location = new System.Drawing.Point(3, 821);
+            this.pnl_cpt4_up8.Location = new System.Drawing.Point(0, 821);
+            this.pnl_cpt4_up8.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt4_up8.Name = "pnl_cpt4_up8";
             this.pnl_cpt4_up8.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt4_up8.TabIndex = 88;
@@ -1611,7 +1627,8 @@
             // 
             this.pnl_cpt5_up1.Controls.Add(this.label38);
             this.pnl_cpt5_up1.Controls.Add(this.btn_cpt5_up1);
-            this.pnl_cpt5_up1.Location = new System.Drawing.Point(3, 851);
+            this.pnl_cpt5_up1.Location = new System.Drawing.Point(0, 851);
+            this.pnl_cpt5_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up1.Name = "pnl_cpt5_up1";
             this.pnl_cpt5_up1.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up1.TabIndex = 83;
@@ -1640,7 +1657,8 @@
             // 
             this.pnl_cpt5_up2.Controls.Add(this.label39);
             this.pnl_cpt5_up2.Controls.Add(this.btn_cpt5_up2);
-            this.pnl_cpt5_up2.Location = new System.Drawing.Point(3, 881);
+            this.pnl_cpt5_up2.Location = new System.Drawing.Point(0, 881);
+            this.pnl_cpt5_up2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up2.Name = "pnl_cpt5_up2";
             this.pnl_cpt5_up2.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up2.TabIndex = 84;
@@ -1669,7 +1687,8 @@
             // 
             this.pnl_cpt5_up3.Controls.Add(this.label41);
             this.pnl_cpt5_up3.Controls.Add(this.btn_cpt5_up3);
-            this.pnl_cpt5_up3.Location = new System.Drawing.Point(3, 911);
+            this.pnl_cpt5_up3.Location = new System.Drawing.Point(0, 911);
+            this.pnl_cpt5_up3.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up3.Name = "pnl_cpt5_up3";
             this.pnl_cpt5_up3.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up3.TabIndex = 85;
@@ -1698,7 +1717,8 @@
             // 
             this.pnl_cpt5_up4.Controls.Add(this.label40);
             this.pnl_cpt5_up4.Controls.Add(this.btn_cpt5_up4);
-            this.pnl_cpt5_up4.Location = new System.Drawing.Point(3, 941);
+            this.pnl_cpt5_up4.Location = new System.Drawing.Point(0, 941);
+            this.pnl_cpt5_up4.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up4.Name = "pnl_cpt5_up4";
             this.pnl_cpt5_up4.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up4.TabIndex = 86;
@@ -1727,7 +1747,8 @@
             // 
             this.pnl_cpt5_up5.Controls.Add(this.label43);
             this.pnl_cpt5_up5.Controls.Add(this.btn_cpt5_up5);
-            this.pnl_cpt5_up5.Location = new System.Drawing.Point(3, 971);
+            this.pnl_cpt5_up5.Location = new System.Drawing.Point(0, 971);
+            this.pnl_cpt5_up5.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up5.Name = "pnl_cpt5_up5";
             this.pnl_cpt5_up5.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up5.TabIndex = 85;
@@ -1756,7 +1777,8 @@
             // 
             this.pnl_cpt5_up6.Controls.Add(this.label42);
             this.pnl_cpt5_up6.Controls.Add(this.btn_cpt5_up6);
-            this.pnl_cpt5_up6.Location = new System.Drawing.Point(3, 1001);
+            this.pnl_cpt5_up6.Location = new System.Drawing.Point(0, 1001);
+            this.pnl_cpt5_up6.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up6.Name = "pnl_cpt5_up6";
             this.pnl_cpt5_up6.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up6.TabIndex = 86;
@@ -1785,7 +1807,8 @@
             // 
             this.pnl_cpt5_up7.Controls.Add(this.label45);
             this.pnl_cpt5_up7.Controls.Add(this.btn_cpt5_up7);
-            this.pnl_cpt5_up7.Location = new System.Drawing.Point(3, 1031);
+            this.pnl_cpt5_up7.Location = new System.Drawing.Point(0, 1031);
+            this.pnl_cpt5_up7.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up7.Name = "pnl_cpt5_up7";
             this.pnl_cpt5_up7.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up7.TabIndex = 85;
@@ -1814,7 +1837,8 @@
             // 
             this.pnl_cpt5_up8.Controls.Add(this.label44);
             this.pnl_cpt5_up8.Controls.Add(this.btn_cpt5_up8);
-            this.pnl_cpt5_up8.Location = new System.Drawing.Point(3, 1061);
+            this.pnl_cpt5_up8.Location = new System.Drawing.Point(0, 1061);
+            this.pnl_cpt5_up8.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt5_up8.Name = "pnl_cpt5_up8";
             this.pnl_cpt5_up8.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt5_up8.TabIndex = 86;
@@ -1842,7 +1866,8 @@
             // 
             this.pnl_cpt6_up1.Controls.Add(this.label46);
             this.pnl_cpt6_up1.Controls.Add(this.btn_cpt6_up1);
-            this.pnl_cpt6_up1.Location = new System.Drawing.Point(3, 1091);
+            this.pnl_cpt6_up1.Location = new System.Drawing.Point(0, 1091);
+            this.pnl_cpt6_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up1.Name = "pnl_cpt6_up1";
             this.pnl_cpt6_up1.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up1.TabIndex = 84;
@@ -1871,7 +1896,8 @@
             // 
             this.pnl_cpt6_up2.Controls.Add(this.label47);
             this.pnl_cpt6_up2.Controls.Add(this.btn_cpt6_up2);
-            this.pnl_cpt6_up2.Location = new System.Drawing.Point(3, 1121);
+            this.pnl_cpt6_up2.Location = new System.Drawing.Point(0, 1121);
+            this.pnl_cpt6_up2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up2.Name = "pnl_cpt6_up2";
             this.pnl_cpt6_up2.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up2.TabIndex = 85;
@@ -1900,7 +1926,8 @@
             // 
             this.pnl_cpt6_up3.Controls.Add(this.label48);
             this.pnl_cpt6_up3.Controls.Add(this.btn_cpt6_up3);
-            this.pnl_cpt6_up3.Location = new System.Drawing.Point(3, 1151);
+            this.pnl_cpt6_up3.Location = new System.Drawing.Point(0, 1151);
+            this.pnl_cpt6_up3.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up3.Name = "pnl_cpt6_up3";
             this.pnl_cpt6_up3.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up3.TabIndex = 85;
@@ -1929,7 +1956,8 @@
             // 
             this.pnl_cpt6_up4.Controls.Add(this.label49);
             this.pnl_cpt6_up4.Controls.Add(this.btn_cpt6_up4);
-            this.pnl_cpt6_up4.Location = new System.Drawing.Point(3, 1181);
+            this.pnl_cpt6_up4.Location = new System.Drawing.Point(0, 1181);
+            this.pnl_cpt6_up4.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up4.Name = "pnl_cpt6_up4";
             this.pnl_cpt6_up4.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up4.TabIndex = 85;
@@ -1958,7 +1986,8 @@
             // 
             this.pnl_cpt6_up5.Controls.Add(this.label50);
             this.pnl_cpt6_up5.Controls.Add(this.btn_cpt6_up5);
-            this.pnl_cpt6_up5.Location = new System.Drawing.Point(3, 1211);
+            this.pnl_cpt6_up5.Location = new System.Drawing.Point(0, 1211);
+            this.pnl_cpt6_up5.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up5.Name = "pnl_cpt6_up5";
             this.pnl_cpt6_up5.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up5.TabIndex = 85;
@@ -1987,7 +2016,8 @@
             // 
             this.pnl_cpt6_up6.Controls.Add(this.label51);
             this.pnl_cpt6_up6.Controls.Add(this.btn_cpt6_up6);
-            this.pnl_cpt6_up6.Location = new System.Drawing.Point(3, 1241);
+            this.pnl_cpt6_up6.Location = new System.Drawing.Point(0, 1241);
+            this.pnl_cpt6_up6.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up6.Name = "pnl_cpt6_up6";
             this.pnl_cpt6_up6.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up6.TabIndex = 85;
@@ -2016,7 +2046,8 @@
             // 
             this.pnl_cpt6_up7.Controls.Add(this.label52);
             this.pnl_cpt6_up7.Controls.Add(this.btn_cpt6_up7);
-            this.pnl_cpt6_up7.Location = new System.Drawing.Point(3, 1271);
+            this.pnl_cpt6_up7.Location = new System.Drawing.Point(0, 1271);
+            this.pnl_cpt6_up7.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up7.Name = "pnl_cpt6_up7";
             this.pnl_cpt6_up7.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up7.TabIndex = 85;
@@ -2045,7 +2076,8 @@
             // 
             this.pnl_cpt6_up8.Controls.Add(this.label53);
             this.pnl_cpt6_up8.Controls.Add(this.btn_cpt6_up8);
-            this.pnl_cpt6_up8.Location = new System.Drawing.Point(3, 1301);
+            this.pnl_cpt6_up8.Location = new System.Drawing.Point(0, 1301);
+            this.pnl_cpt6_up8.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt6_up8.Name = "pnl_cpt6_up8";
             this.pnl_cpt6_up8.Size = new System.Drawing.Size(281, 24);
             this.pnl_cpt6_up8.TabIndex = 85;
@@ -2073,7 +2105,8 @@
             // 
             this.pnl_cpt7_up1.Controls.Add(this.label29);
             this.pnl_cpt7_up1.Controls.Add(this.btn_cpt7_up1);
-            this.pnl_cpt7_up1.Location = new System.Drawing.Point(3, 1331);
+            this.pnl_cpt7_up1.Location = new System.Drawing.Point(0, 1331);
+            this.pnl_cpt7_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up1.Name = "pnl_cpt7_up1";
             this.pnl_cpt7_up1.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up1.TabIndex = 63;
@@ -2102,7 +2135,8 @@
             // 
             this.pnl_cpt7_up2.Controls.Add(this.label54);
             this.pnl_cpt7_up2.Controls.Add(this.btn_cpt7_up2);
-            this.pnl_cpt7_up2.Location = new System.Drawing.Point(3, 1361);
+            this.pnl_cpt7_up2.Location = new System.Drawing.Point(0, 1361);
+            this.pnl_cpt7_up2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up2.Name = "pnl_cpt7_up2";
             this.pnl_cpt7_up2.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up2.TabIndex = 64;
@@ -2131,7 +2165,8 @@
             // 
             this.pnl_cpt7_up3.Controls.Add(this.label55);
             this.pnl_cpt7_up3.Controls.Add(this.btn_cpt7_up3);
-            this.pnl_cpt7_up3.Location = new System.Drawing.Point(3, 1391);
+            this.pnl_cpt7_up3.Location = new System.Drawing.Point(0, 1391);
+            this.pnl_cpt7_up3.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up3.Name = "pnl_cpt7_up3";
             this.pnl_cpt7_up3.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up3.TabIndex = 64;
@@ -2160,7 +2195,8 @@
             // 
             this.pnl_cpt7_up4.Controls.Add(this.label56);
             this.pnl_cpt7_up4.Controls.Add(this.btn_cpt7_up4);
-            this.pnl_cpt7_up4.Location = new System.Drawing.Point(3, 1421);
+            this.pnl_cpt7_up4.Location = new System.Drawing.Point(0, 1421);
+            this.pnl_cpt7_up4.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up4.Name = "pnl_cpt7_up4";
             this.pnl_cpt7_up4.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up4.TabIndex = 64;
@@ -2189,7 +2225,8 @@
             // 
             this.pnl_cpt7_up5.Controls.Add(this.label57);
             this.pnl_cpt7_up5.Controls.Add(this.btn_cpt7_up5);
-            this.pnl_cpt7_up5.Location = new System.Drawing.Point(3, 1451);
+            this.pnl_cpt7_up5.Location = new System.Drawing.Point(0, 1451);
+            this.pnl_cpt7_up5.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up5.Name = "pnl_cpt7_up5";
             this.pnl_cpt7_up5.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up5.TabIndex = 64;
@@ -2218,7 +2255,8 @@
             // 
             this.pnl_cpt7_up6.Controls.Add(this.label58);
             this.pnl_cpt7_up6.Controls.Add(this.btn_cpt7_up6);
-            this.pnl_cpt7_up6.Location = new System.Drawing.Point(3, 1481);
+            this.pnl_cpt7_up6.Location = new System.Drawing.Point(0, 1481);
+            this.pnl_cpt7_up6.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up6.Name = "pnl_cpt7_up6";
             this.pnl_cpt7_up6.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up6.TabIndex = 79;
@@ -2247,7 +2285,8 @@
             // 
             this.pnl_cpt7_up7.Controls.Add(this.label59);
             this.pnl_cpt7_up7.Controls.Add(this.btn_cpt7_up7);
-            this.pnl_cpt7_up7.Location = new System.Drawing.Point(3, 1511);
+            this.pnl_cpt7_up7.Location = new System.Drawing.Point(0, 1511);
+            this.pnl_cpt7_up7.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt7_up7.Name = "pnl_cpt7_up7";
             this.pnl_cpt7_up7.Size = new System.Drawing.Size(277, 24);
             this.pnl_cpt7_up7.TabIndex = 64;
@@ -2276,7 +2315,8 @@
             // 
             this.pnl_cpt8_up1.Controls.Add(this.label60);
             this.pnl_cpt8_up1.Controls.Add(this.btn_cpt8_up1);
-            this.pnl_cpt8_up1.Location = new System.Drawing.Point(3, 1541);
+            this.pnl_cpt8_up1.Location = new System.Drawing.Point(0, 1541);
+            this.pnl_cpt8_up1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up1.Name = "pnl_cpt8_up1";
             this.pnl_cpt8_up1.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up1.TabIndex = 64;
@@ -2305,7 +2345,8 @@
             // 
             this.pnl_cpt8_up2.Controls.Add(this.label61);
             this.pnl_cpt8_up2.Controls.Add(this.btn_cpt8_up2);
-            this.pnl_cpt8_up2.Location = new System.Drawing.Point(3, 1571);
+            this.pnl_cpt8_up2.Location = new System.Drawing.Point(0, 1571);
+            this.pnl_cpt8_up2.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up2.Name = "pnl_cpt8_up2";
             this.pnl_cpt8_up2.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up2.TabIndex = 65;
@@ -2334,7 +2375,8 @@
             // 
             this.pnl_cpt8_up3.Controls.Add(this.label62);
             this.pnl_cpt8_up3.Controls.Add(this.btn_cpt8_up3);
-            this.pnl_cpt8_up3.Location = new System.Drawing.Point(3, 1601);
+            this.pnl_cpt8_up3.Location = new System.Drawing.Point(0, 1601);
+            this.pnl_cpt8_up3.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up3.Name = "pnl_cpt8_up3";
             this.pnl_cpt8_up3.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up3.TabIndex = 65;
@@ -2363,7 +2405,8 @@
             // 
             this.pnl_cpt8_up4.Controls.Add(this.label63);
             this.pnl_cpt8_up4.Controls.Add(this.btn_cpt8_up4);
-            this.pnl_cpt8_up4.Location = new System.Drawing.Point(3, 1631);
+            this.pnl_cpt8_up4.Location = new System.Drawing.Point(0, 1631);
+            this.pnl_cpt8_up4.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up4.Name = "pnl_cpt8_up4";
             this.pnl_cpt8_up4.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up4.TabIndex = 65;
@@ -2392,7 +2435,8 @@
             // 
             this.pnl_cpt8_up5.Controls.Add(this.label64);
             this.pnl_cpt8_up5.Controls.Add(this.btn_cpt8_up5);
-            this.pnl_cpt8_up5.Location = new System.Drawing.Point(3, 1661);
+            this.pnl_cpt8_up5.Location = new System.Drawing.Point(0, 1661);
+            this.pnl_cpt8_up5.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up5.Name = "pnl_cpt8_up5";
             this.pnl_cpt8_up5.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up5.TabIndex = 65;
@@ -2421,7 +2465,8 @@
             // 
             this.pnl_cpt8_up6.Controls.Add(this.label65);
             this.pnl_cpt8_up6.Controls.Add(this.btn_cpt8_up6);
-            this.pnl_cpt8_up6.Location = new System.Drawing.Point(3, 1691);
+            this.pnl_cpt8_up6.Location = new System.Drawing.Point(0, 1691);
+            this.pnl_cpt8_up6.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.pnl_cpt8_up6.Name = "pnl_cpt8_up6";
             this.pnl_cpt8_up6.Size = new System.Drawing.Size(301, 24);
             this.pnl_cpt8_up6.TabIndex = 65;
@@ -2446,27 +2491,58 @@
             this.btn_cpt8_up6.UseVisualStyleBackColor = true;
             this.btn_cpt8_up6.Click += new System.EventHandler(this.btn_cpt8_up6_Click);
             // 
-            // timer1
+            // pnl_click_up1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.pnl_click_up1.Controls.Add(this.btn_click_up1);
+            this.pnl_click_up1.Controls.Add(this.label2);
+            this.pnl_click_up1.Location = new System.Drawing.Point(0, 1718);
+            this.pnl_click_up1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.pnl_click_up1.Name = "pnl_click_up1";
+            this.pnl_click_up1.Size = new System.Drawing.Size(259, 24);
+            this.pnl_click_up1.TabIndex = 78;
+            this.pnl_click_up1.Visible = false;
             // 
-            // label24
+            // pnl_click_up2
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(275, 76);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(41, 13);
-            this.label24.TabIndex = 64;
-            this.label24.Text = "label24";
+            this.pnl_click_up2.Controls.Add(this.btn_click_up2);
+            this.pnl_click_up2.Controls.Add(this.label3);
+            this.pnl_click_up2.Location = new System.Drawing.Point(0, 1745);
+            this.pnl_click_up2.Margin = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.pnl_click_up2.Name = "pnl_click_up2";
+            this.pnl_click_up2.Size = new System.Drawing.Size(259, 24);
+            this.pnl_click_up2.TabIndex = 79;
+            this.pnl_click_up2.Visible = false;
+            // 
+            // pnl_click_up3
+            // 
+            this.pnl_click_up3.Controls.Add(this.btn_click_up3);
+            this.pnl_click_up3.Controls.Add(this.label4);
+            this.pnl_click_up3.Location = new System.Drawing.Point(0, 1772);
+            this.pnl_click_up3.Margin = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.pnl_click_up3.Name = "pnl_click_up3";
+            this.pnl_click_up3.Size = new System.Drawing.Size(259, 24);
+            this.pnl_click_up3.TabIndex = 79;
+            this.pnl_click_up3.Visible = false;
+            // 
+            // pnl_click_up4
+            // 
+            this.pnl_click_up4.Controls.Add(this.btn_click_up4);
+            this.pnl_click_up4.Controls.Add(this.label5);
+            this.pnl_click_up4.Location = new System.Drawing.Point(0, 1799);
+            this.pnl_click_up4.Margin = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.pnl_click_up4.Name = "pnl_click_up4";
+            this.pnl_click_up4.Size = new System.Drawing.Size(259, 24);
+            this.pnl_click_up4.TabIndex = 79;
+            this.pnl_click_up4.Visible = false;
             // 
             // click
             // 
             this.click.AutoSize = true;
-            this.click.Location = new System.Drawing.Point(432, 158);
+            this.click.Location = new System.Drawing.Point(751, 277);
             this.click.Name = "click";
-            this.click.Size = new System.Drawing.Size(64, 13);
+            this.click.Size = new System.Drawing.Size(13, 13);
             this.click.TabIndex = 65;
-            this.click.Text = "Click anzahl";
+            this.click.Text = "1";
             // 
             // lbl_cpt6_number
             // 
@@ -2585,37 +2661,21 @@
             this.shop_cpt8.UseVisualStyleBackColor = true;
             this.shop_cpt8.Click += new System.EventHandler(this.shop_cpt8_Click);
             // 
-            // move
+            // label24
             // 
-            this.move.AutoSize = true;
-            this.move.Location = new System.Drawing.Point(682, 72);
-            this.move.Name = "move";
-            this.move.Size = new System.Drawing.Size(33, 13);
-            this.move.TabIndex = 78;
-            this.move.Text = "move";
-            // 
-            // panel12
-            // 
-            this.panel12.Location = new System.Drawing.Point(342, 255);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(259, 24);
-            this.panel12.TabIndex = 65;
-            // 
-            // panel13
-            // 
-            this.panel13.Location = new System.Drawing.Point(342, 202);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(259, 24);
-            this.panel13.TabIndex = 66;
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(664, 277);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 13);
+            this.label24.TabIndex = 78;
+            this.label24.Text = "Pizzen pro click:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1331, 1061);
-            this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel13);
-            this.Controls.Add(this.move);
+            this.Controls.Add(this.label24);
             this.Controls.Add(this.lbl_cpt8_number);
             this.Controls.Add(this.lbl_cpt8_pizzen);
             this.Controls.Add(this.lbl_cpt8_cost);
@@ -2629,7 +2689,6 @@
             this.Controls.Add(this.lbl_cpt6_cost);
             this.Controls.Add(this.shop_cpt6);
             this.Controls.Add(this.click);
-            this.Controls.Add(this.label24);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_cpt5_number);
@@ -2640,15 +2699,6 @@
             this.Controls.Add(this.lbl_cpt1_pizzen);
             this.Controls.Add(this.lbl_cpt1_cost);
             this.Controls.Add(this.shop_cpt1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn_click_up4);
-            this.Controls.Add(this.btn_click_up3);
-            this.Controls.Add(this.btn_click_up2);
-            this.Controls.Add(this.btn_click_up1);
             this.Controls.Add(this.lbl_cpt4_number);
             this.Controls.Add(this.lbl_cpt4_pizzen);
             this.Controls.Add(this.lbl_cpt4_cost);
@@ -2667,7 +2717,7 @@
             this.Controls.Add(this.btnPizza_click);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Pizza_Clicker made by GMJGmbH";
+            this.Text = "pt ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -2789,6 +2839,14 @@
             this.pnl_cpt8_up5.PerformLayout();
             this.pnl_cpt8_up6.ResumeLayout(false);
             this.pnl_cpt8_up6.PerformLayout();
+            this.pnl_click_up1.ResumeLayout(false);
+            this.pnl_click_up1.PerformLayout();
+            this.pnl_click_up2.ResumeLayout(false);
+            this.pnl_click_up2.PerformLayout();
+            this.pnl_click_up3.ResumeLayout(false);
+            this.pnl_click_up3.PerformLayout();
+            this.pnl_click_up4.ResumeLayout(false);
+            this.pnl_click_up4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2817,7 +2875,6 @@
         private System.Windows.Forms.Button btn_click_up2;
         private System.Windows.Forms.Button btn_click_up4;
         private System.Windows.Forms.Button btn_click_up3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -2876,7 +2933,6 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Button btn_cpt7_up1;
         private System.Windows.Forms.Label click;
@@ -2892,7 +2948,6 @@
         private System.Windows.Forms.Label lbl_cpt8_pizzen;
         private System.Windows.Forms.Label lbl_cpt8_cost;
         private System.Windows.Forms.Button shop_cpt8;
-        private System.Windows.Forms.Label move;
         private System.Windows.Forms.Panel pnl_cpt1_click_up1;
         private System.Windows.Forms.Button btn_cpt1_click_up1;
         private System.Windows.Forms.Label label30;
@@ -2918,8 +2973,6 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Button btn_cpt1_click_up8;
         private System.Windows.Forms.Panel pnl_cpt8_up1;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel pnl_cpt4_up1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_cpt4_up1;
@@ -3027,6 +3080,11 @@
         private System.Windows.Forms.Panel pnl_cpt8_up6;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Button btn_cpt8_up6;
+        private System.Windows.Forms.Panel pnl_click_up1;
+        private System.Windows.Forms.Panel pnl_click_up2;
+        private System.Windows.Forms.Panel pnl_click_up3;
+        private System.Windows.Forms.Panel pnl_click_up4;
+        private System.Windows.Forms.Label label24;
     }
 }
 
