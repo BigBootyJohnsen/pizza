@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btnPizza_click = new System.Windows.Forms.Button();
             this.lblPizza_count = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.timer_test = new System.Windows.Forms.Timer(this.components);
@@ -261,6 +260,7 @@
             this.lbl_cpt8_cost = new System.Windows.Forms.Label();
             this.shop_cpt8 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
+            this.btnPizza_click = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnl_cpt1_click_up1.SuspendLayout();
             this.pnl_cpt1_click_up2.SuspendLayout();
@@ -327,20 +327,11 @@
             this.pnl_click_up4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnPizza_click
-            // 
-            this.btnPizza_click.Location = new System.Drawing.Point(620, 321);
-            this.btnPizza_click.Name = "btnPizza_click";
-            this.btnPizza_click.Size = new System.Drawing.Size(178, 57);
-            this.btnPizza_click.TabIndex = 0;
-            this.btnPizza_click.Text = "Click";
-            this.btnPizza_click.UseVisualStyleBackColor = true;
-            this.btnPizza_click.Click += new System.EventHandler(this.button1_Click);
-            // 
             // lblPizza_count
             // 
+            this.lblPizza_count.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPizza_count.AutoSize = true;
-            this.lblPizza_count.Location = new System.Drawing.Point(693, 236);
+            this.lblPizza_count.Location = new System.Drawing.Point(685, 272);
             this.lblPizza_count.Name = "lblPizza_count";
             this.lblPizza_count.Size = new System.Drawing.Size(38, 13);
             this.lblPizza_count.TabIndex = 1;
@@ -348,7 +339,8 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(1197, 954);
+            this.btnExit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnExit.Location = new System.Drawing.Point(1156, 545);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 2;
@@ -363,6 +355,7 @@
             // 
             // shop_cpt2
             // 
+            this.shop_cpt2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt2.FlatAppearance.BorderSize = 0;
             this.shop_cpt2.Location = new System.Drawing.Point(1056, 96);
@@ -375,6 +368,7 @@
             // 
             // shop_cpt3
             // 
+            this.shop_cpt3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt3.FlatAppearance.BorderSize = 0;
             this.shop_cpt3.Location = new System.Drawing.Point(1056, 149);
@@ -387,6 +381,7 @@
             // 
             // lbl_cpt2_cost
             // 
+            this.lbl_cpt2_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt2_cost.AutoSize = true;
             this.lbl_cpt2_cost.Location = new System.Drawing.Point(989, 96);
             this.lbl_cpt2_cost.Name = "lbl_cpt2_cost";
@@ -396,6 +391,7 @@
             // 
             // lbl_cpt2_pizzen
             // 
+            this.lbl_cpt2_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt2_pizzen.AutoSize = true;
             this.lbl_cpt2_pizzen.Location = new System.Drawing.Point(992, 113);
             this.lbl_cpt2_pizzen.Name = "lbl_cpt2_pizzen";
@@ -405,6 +401,7 @@
             // 
             // lbl_cpt2_number
             // 
+            this.lbl_cpt2_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt2_number.AutoSize = true;
             this.lbl_cpt2_number.Location = new System.Drawing.Point(992, 130);
             this.lbl_cpt2_number.Name = "lbl_cpt2_number";
@@ -414,6 +411,7 @@
             // 
             // lbl_cpt3_number
             // 
+            this.lbl_cpt3_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt3_number.AutoSize = true;
             this.lbl_cpt3_number.Location = new System.Drawing.Point(992, 183);
             this.lbl_cpt3_number.Name = "lbl_cpt3_number";
@@ -423,6 +421,7 @@
             // 
             // lbl_cpt3_pizzen
             // 
+            this.lbl_cpt3_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt3_pizzen.AutoSize = true;
             this.lbl_cpt3_pizzen.Location = new System.Drawing.Point(992, 166);
             this.lbl_cpt3_pizzen.Name = "lbl_cpt3_pizzen";
@@ -432,6 +431,7 @@
             // 
             // lbl_cpt3_cost
             // 
+            this.lbl_cpt3_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt3_cost.AutoSize = true;
             this.lbl_cpt3_cost.Location = new System.Drawing.Point(989, 149);
             this.lbl_cpt3_cost.Name = "lbl_cpt3_cost";
@@ -441,8 +441,9 @@
             // 
             // lbl_cpt_ps
             // 
+            this.lbl_cpt_ps.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt_ps.AutoSize = true;
-            this.lbl_cpt_ps.Location = new System.Drawing.Point(693, 257);
+            this.lbl_cpt_ps.Location = new System.Drawing.Point(671, 469);
             this.lbl_cpt_ps.Name = "lbl_cpt_ps";
             this.lbl_cpt_ps.Size = new System.Drawing.Size(48, 13);
             this.lbl_cpt_ps.TabIndex = 11;
@@ -450,6 +451,7 @@
             // 
             // lbl_cpt4_number
             // 
+            this.lbl_cpt4_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt4_number.AutoSize = true;
             this.lbl_cpt4_number.Location = new System.Drawing.Point(992, 236);
             this.lbl_cpt4_number.Name = "lbl_cpt4_number";
@@ -459,6 +461,7 @@
             // 
             // lbl_cpt4_pizzen
             // 
+            this.lbl_cpt4_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt4_pizzen.AutoSize = true;
             this.lbl_cpt4_pizzen.Location = new System.Drawing.Point(992, 219);
             this.lbl_cpt4_pizzen.Name = "lbl_cpt4_pizzen";
@@ -468,6 +471,7 @@
             // 
             // lbl_cpt4_cost
             // 
+            this.lbl_cpt4_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt4_cost.AutoSize = true;
             this.lbl_cpt4_cost.Location = new System.Drawing.Point(989, 202);
             this.lbl_cpt4_cost.Name = "lbl_cpt4_cost";
@@ -477,6 +481,7 @@
             // 
             // shop_cpt4
             // 
+            this.shop_cpt4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt4.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt4.FlatAppearance.BorderSize = 0;
             this.shop_cpt4.Location = new System.Drawing.Point(1056, 202);
@@ -565,6 +570,7 @@
             // 
             // lbl_cpt1_number
             // 
+            this.lbl_cpt1_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt1_number.AutoSize = true;
             this.lbl_cpt1_number.Location = new System.Drawing.Point(992, 77);
             this.lbl_cpt1_number.Name = "lbl_cpt1_number";
@@ -574,6 +580,7 @@
             // 
             // lbl_cpt1_pizzen
             // 
+            this.lbl_cpt1_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt1_pizzen.AutoSize = true;
             this.lbl_cpt1_pizzen.Location = new System.Drawing.Point(992, 60);
             this.lbl_cpt1_pizzen.Name = "lbl_cpt1_pizzen";
@@ -583,6 +590,7 @@
             // 
             // lbl_cpt1_cost
             // 
+            this.lbl_cpt1_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt1_cost.AutoSize = true;
             this.lbl_cpt1_cost.Location = new System.Drawing.Point(989, 43);
             this.lbl_cpt1_cost.Name = "lbl_cpt1_cost";
@@ -592,6 +600,7 @@
             // 
             // shop_cpt1
             // 
+            this.shop_cpt1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt1.FlatAppearance.BorderSize = 0;
             this.shop_cpt1.Location = new System.Drawing.Point(1056, 43);
@@ -604,6 +613,7 @@
             // 
             // lbl_cpt5_number
             // 
+            this.lbl_cpt5_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt5_number.AutoSize = true;
             this.lbl_cpt5_number.Location = new System.Drawing.Point(992, 289);
             this.lbl_cpt5_number.Name = "lbl_cpt5_number";
@@ -613,6 +623,7 @@
             // 
             // lbl_cpt5_pizzen
             // 
+            this.lbl_cpt5_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt5_pizzen.AutoSize = true;
             this.lbl_cpt5_pizzen.Location = new System.Drawing.Point(992, 272);
             this.lbl_cpt5_pizzen.Name = "lbl_cpt5_pizzen";
@@ -622,6 +633,7 @@
             // 
             // lbl_cpt5_cost
             // 
+            this.lbl_cpt5_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt5_cost.AutoSize = true;
             this.lbl_cpt5_cost.Location = new System.Drawing.Point(989, 255);
             this.lbl_cpt5_cost.Name = "lbl_cpt5_cost";
@@ -631,6 +643,7 @@
             // 
             // shop_cpt5
             // 
+            this.shop_cpt5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt5.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt5.FlatAppearance.BorderSize = 0;
             this.shop_cpt5.Location = new System.Drawing.Point(1056, 255);
@@ -643,6 +656,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Location = new System.Drawing.Point(469, 38);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -786,7 +800,9 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up1);
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up2);
             this.flowLayoutPanel1.Controls.Add(this.pnl_cpt1_click_up3);
@@ -852,7 +868,7 @@
             this.flowLayoutPanel1.Controls.Add(this.pnl_click_up4);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(324, 878);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(324, 553);
             this.flowLayoutPanel1.TabIndex = 57;
             // 
             // pnl_cpt1_click_up1
@@ -2537,8 +2553,9 @@
             // 
             // click
             // 
+            this.click.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.click.AutoSize = true;
-            this.click.Location = new System.Drawing.Point(751, 277);
+            this.click.Location = new System.Drawing.Point(729, 489);
             this.click.Name = "click";
             this.click.Size = new System.Drawing.Size(13, 13);
             this.click.TabIndex = 65;
@@ -2546,6 +2563,7 @@
             // 
             // lbl_cpt6_number
             // 
+            this.lbl_cpt6_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt6_number.AutoSize = true;
             this.lbl_cpt6_number.Location = new System.Drawing.Point(992, 346);
             this.lbl_cpt6_number.Name = "lbl_cpt6_number";
@@ -2555,6 +2573,7 @@
             // 
             // lbl_cpt6_pizzen
             // 
+            this.lbl_cpt6_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt6_pizzen.AutoSize = true;
             this.lbl_cpt6_pizzen.Location = new System.Drawing.Point(992, 329);
             this.lbl_cpt6_pizzen.Name = "lbl_cpt6_pizzen";
@@ -2564,6 +2583,7 @@
             // 
             // lbl_cpt6_cost
             // 
+            this.lbl_cpt6_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt6_cost.AutoSize = true;
             this.lbl_cpt6_cost.Location = new System.Drawing.Point(989, 312);
             this.lbl_cpt6_cost.Name = "lbl_cpt6_cost";
@@ -2573,6 +2593,7 @@
             // 
             // shop_cpt6
             // 
+            this.shop_cpt6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt6.FlatAppearance.BorderSize = 0;
             this.shop_cpt6.Location = new System.Drawing.Point(1056, 312);
@@ -2585,6 +2606,7 @@
             // 
             // lbl_cpt7_number
             // 
+            this.lbl_cpt7_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt7_number.AutoSize = true;
             this.lbl_cpt7_number.Location = new System.Drawing.Point(992, 399);
             this.lbl_cpt7_number.Name = "lbl_cpt7_number";
@@ -2594,6 +2616,7 @@
             // 
             // lbl_cpt7_pizzen
             // 
+            this.lbl_cpt7_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt7_pizzen.AutoSize = true;
             this.lbl_cpt7_pizzen.Location = new System.Drawing.Point(992, 382);
             this.lbl_cpt7_pizzen.Name = "lbl_cpt7_pizzen";
@@ -2603,6 +2626,7 @@
             // 
             // lbl_cpt7_cost
             // 
+            this.lbl_cpt7_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt7_cost.AutoSize = true;
             this.lbl_cpt7_cost.Location = new System.Drawing.Point(989, 365);
             this.lbl_cpt7_cost.Name = "lbl_cpt7_cost";
@@ -2612,6 +2636,7 @@
             // 
             // shop_cpt7
             // 
+            this.shop_cpt7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt7.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt7.FlatAppearance.BorderSize = 0;
             this.shop_cpt7.Location = new System.Drawing.Point(1056, 365);
@@ -2624,6 +2649,7 @@
             // 
             // lbl_cpt8_number
             // 
+            this.lbl_cpt8_number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt8_number.AutoSize = true;
             this.lbl_cpt8_number.Location = new System.Drawing.Point(992, 452);
             this.lbl_cpt8_number.Name = "lbl_cpt8_number";
@@ -2633,6 +2659,7 @@
             // 
             // lbl_cpt8_pizzen
             // 
+            this.lbl_cpt8_pizzen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt8_pizzen.AutoSize = true;
             this.lbl_cpt8_pizzen.Location = new System.Drawing.Point(992, 435);
             this.lbl_cpt8_pizzen.Name = "lbl_cpt8_pizzen";
@@ -2642,6 +2669,7 @@
             // 
             // lbl_cpt8_cost
             // 
+            this.lbl_cpt8_cost.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_cpt8_cost.AutoSize = true;
             this.lbl_cpt8_cost.Location = new System.Drawing.Point(989, 418);
             this.lbl_cpt8_cost.Name = "lbl_cpt8_cost";
@@ -2651,6 +2679,7 @@
             // 
             // shop_cpt8
             // 
+            this.shop_cpt8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.shop_cpt8.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shop_cpt8.FlatAppearance.BorderSize = 0;
             this.shop_cpt8.Location = new System.Drawing.Point(1056, 418);
@@ -2663,18 +2692,31 @@
             // 
             // label24
             // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(664, 277);
+            this.label24.Location = new System.Drawing.Point(671, 489);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(84, 13);
+            this.label24.Size = new System.Drawing.Size(52, 13);
             this.label24.TabIndex = 78;
-            this.label24.Text = "Pizzen pro click:";
+            this.label24.Text = "Pizzen/c:";
+            // 
+            // btnPizza_click
+            // 
+            this.btnPizza_click.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnPizza_click.BackgroundImage = global::Pizza_Clicker_WhoaGeilEy.Properties.Resources.clickpizza;
+            this.btnPizza_click.Location = new System.Drawing.Point(613, 295);
+            this.btnPizza_click.Name = "btnPizza_click";
+            this.btnPizza_click.Size = new System.Drawing.Size(178, 161);
+            this.btnPizza_click.TabIndex = 0;
+            this.btnPizza_click.UseVisualStyleBackColor = true;
+            this.btnPizza_click.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 1061);
+            this.BackgroundImage = global::Pizza_Clicker_WhoaGeilEy.Properties.Resources.holz_hintergrund_hell;
+            this.ClientSize = new System.Drawing.Size(1331, 599);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.lbl_cpt8_number);
             this.Controls.Add(this.lbl_cpt8_pizzen);

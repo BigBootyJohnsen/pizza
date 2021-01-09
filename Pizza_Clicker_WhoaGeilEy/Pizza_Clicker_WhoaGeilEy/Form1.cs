@@ -853,7 +853,7 @@ namespace Pizza_Clicker_WhoaGeilEy
                 pizza_cpt = pizza_cpt + (pizza_cpt2_number * pizza_cpt2_pizzen);
                 pizza_cpt2_pizzen *= 2;
                 lbl_cpt2_pizzen.Text = Convert.ToString(pizza_cpt2_pizzen);
-                pnl_cpt2_up3.Visible = false;
+                pnl_cpt2_up4.Visible = false;
                 pizza_cpt2_up4_display = false;
                 pizza_count -= 5000000;
 
